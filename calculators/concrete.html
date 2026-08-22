@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concrete Calculator — Slab, Footing and Bag Quantities</title>
+  <meta name="description" content="Work out cubic yards or cubic metres of concrete for a slab or footing, how many 80 lb bags that is, and what the ready-mix will cost. Feet-and-inches input supported.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/calculators/concrete.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Concrete Calculator — Slab, Footing and Bag Quantities">
+  <meta property="og:description" content="Work out cubic yards or cubic metres of concrete for a slab or footing, how many 80 lb bags that is, and what the ready-mix will cost. Feet-and-inches input supported.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/calculators/concrete.html">
+  <meta property="og:site_name" content="Measure Twice">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#e2611a">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="../assets/js/units.js" defer></script>
+  <script src="../assets/js/calc.js" defer></script>
+  <script src="../assets/js/calcs/concrete.js" defer></script>
+  <script src="../assets/js/ads.js" defer></script>
+  <script src="../assets/js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Concrete calculator","url":"https://YOUR-DOMAIN.example/calculators/concrete.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Work out cubic yards or cubic metres of concrete for a slab or footing, how many 80 lb bags that is, and what the ready-mix will cost. Feet-and-inches input supported.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculators","item":"https://YOUR-DOMAIN.example/index.html#calculators"},{"@type":"ListItem","position":2,"name":"Concrete","item":"https://YOUR-DOMAIN.example/calculators/concrete.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many 80 lb bags of concrete make a cubic yard?","acceptedAnswer":{"@type":"Answer","text":"Forty-five. An 80 lb bag yields about 0.60 cubic feet and there are 27 cubic feet in a cubic yard. For 60 lb bags it is 60 bags, and for 40 lb bags it is 90."}},{"@type":"Question","name":"How much concrete do I need for a 10 \u00d7 10 patio?","acceptedAnswer":{"@type":"Answer","text":"At 4 inches thick, a 10 ft \u00d7 10 ft slab is 100 ft\u00b2 \u00d7 0.333 ft = 33.3 cubic feet, which is 1.23 cubic yards. With a 10% waste allowance you would order 1.5 cubic yards, or mix roughly 56 \u00d7 80 lb bags."}},{"@type":"Question","name":"Can I pour a slab in two sessions?","acceptedAnswer":{"@type":"Answer","text":"Not without consequences. Concrete placed against concrete that has already begun to set forms a cold joint, which is weaker than the surrounding slab and is a likely crack line. If a slab genuinely has to be poured in stages, plan a proper construction joint with keyed or doweled reinforcement rather than simply stopping and restarting."}},{"@type":"Question","name":"Does this include rebar?","acceptedAnswer":{"@type":"Answer","text":"No. This calculates concrete volume only. Reinforcement is sized from the span, the load and your local code, and it needs to be worked out separately."}},{"@type":"Question","name":"How long before I can walk on it?","acceptedAnswer":{"@type":"Answer","text":"Usually 24 to 48 hours for foot traffic and around seven days before vehicles, though this varies with mix design and temperature. Concrete reaches most of its design strength at 28 days. Cold weather slows everything down substantially."}}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="7" width="21" height="10" rx="1.5" fill="#e2611a" stroke="#14171a" stroke-width="1.6"/><path d="M6 7v3.2M9 7v4.6M12 7v3.2M15 7v4.6M18 7v3.2" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Measure <b>Twice</b></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html#calculators" aria-current="page">Calculators</a>
+        <a href="../guides/index.html">Guides</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page">
+      <div class="wrap page-layout">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><a href="../index.html">Calculators</a></li>
+              <li>Concrete</li>
+            </ol>
+          </nav>
+
+          <h1>Concrete calculator</h1>
+
+          <div data-calc="concrete"></div>
+
+          <div class="ad ad--leaderboard" data-slot="calc-below"></div>
+
+          <div class="prose">
+        <p>Concrete is the one material where guessing costs you twice. Order short and the truck leaves; the joint between what you poured and what arrives later is a cold joint, and it is a permanent weak line through the slab. Order long and you pay for concrete you have to find somewhere to dump.</p>
+        <p>This calculator takes the dimensions of a rectangular pour, adds a waste allowance, and gives you the volume in the units your supplier actually sells in — rounded up to the quarter yard or tenth of a cubic metre that ends up on the ticket.</p>
+        <h2>How the maths works</h2>
+<p>Volume is the easy part. The whole calculation is length &times; width &times; thickness, with the thickness converted out of inches first:</p>
+<div class="formula">cubic feet = length (ft) &times; width (ft) &times; thickness (in) &divide; 12<br>
+cubic yards = cubic feet &divide; 27</div>
+<p>A 20 ft &times; 10 ft patio at 4 inches thick works out at 20 &times; 10 &times; 0.333 = 66.7 cubic feet, or 2.47 cubic yards. Add 10% and you are ordering 2.75 &mdash; the next quarter-yard step up.</p>
+<p>The division by 27 is where most hand calculations go wrong. There are 27 cubic feet in a cubic yard, not 9. Three feet in a yard, cubed.</p>
+        <h2>Why the waste allowance is not padding</h2>
+<p>Ten percent sounds generous until you have poured a slab. It disappears into:</p>
+<ul>
+  <li><strong>Subgrade that is not flat.</strong> A dip of half an inch across a 200&nbsp;ft&sup2; slab is an extra 8&nbsp;ft&sup3; of concrete, and subgrades are never flat.</li>
+  <li><strong>Over-excavated edges.</strong> The perimeter is always dug slightly wide, and concrete fills whatever is there.</li>
+  <li><strong>Spillage and what sticks in the barrow.</strong> Real, and worse on a hot day.</li>
+  <li><strong>Forms that bow.</strong> Wet concrete pushes hard. A form that flexes a quarter inch over 20 feet costs you another few cubic feet.</li>
+</ul>
+<p>Use 10% for a formed slab on a prepared base. Push to 15% for footings dug straight into soil, where the trench walls are rough and the volume is genuinely unpredictable.</p>
+        <h2>Bags or ready-mix?</h2>
+<p>The break-even is lower than most people expect. A cubic yard is 45 &times; 80&nbsp;lb bags &mdash; roughly 3,600&nbsp;lb of material to carry, tip, and mix in batches, which is most of a day for one person with a mixer.</p>
+<table>
+  <thead><tr><th>Bag size</th><th class="num">Yield</th><th class="num">Bags per cubic yard</th></tr></thead>
+  <tbody>
+    <tr><td>80 lb</td><td class="num">0.60 ft&sup3;</td><td class="num">45</td></tr>
+    <tr><td>60 lb</td><td class="num">0.45 ft&sup3;</td><td class="num">60</td></tr>
+    <tr><td>40 lb</td><td class="num">0.30 ft&sup3;</td><td class="num">90</td></tr>
+    <tr><td>25 kg</td><td class="num">12.5 L</td><td class="num">80 per m&sup3;</td></tr>
+  </tbody>
+</table>
+<p>Under about a third of a yard, bags win outright. Between a third of a yard and a full yard it depends on the short-load fee your local plant charges &mdash; ask, because it is often $60&ndash;$150 and it changes the answer. Above one yard, ready-mix is almost always cheaper, and it is certainly better concrete: a truck gives you one consistent mix placed in one go, where 45 hand-mixed batches give you 45 slightly different ones.</p>
+        <h2>How thick should it be?</h2>
+<table>
+  <thead><tr><th>Application</th><th class="num">Typical thickness</th><th>Notes</th></tr></thead>
+  <tbody>
+    <tr><td>Garden path, shed base</td><td class="num">3&ndash;4 in</td><td>Foot traffic only</td></tr>
+    <tr><td>Patio</td><td class="num">4 in</td><td>Over 4 in of compacted base</td></tr>
+    <tr><td>Driveway, car only</td><td class="num">4&ndash;5 in</td><td>5 in if the subgrade is clay</td></tr>
+    <tr><td>Driveway with heavy vehicles</td><td class="num">6 in</td><td>Reinforcement expected</td></tr>
+    <tr><td>Garage floor</td><td class="num">4&ndash;6 in</td><td>Check local code</td></tr>
+  </tbody>
+</table>
+<p>These are common practice, not code. Footing depth in particular is set by your local frost line and soil bearing capacity, and that is a question for your building department rather than a website.</p>
+        <h2>What this calculator does not cover</h2>
+<p>Volume, and nothing else. Not included: rebar or mesh, formwork lumber, the compacted gravel base underneath, vapour barrier, expansion joint material, delivery, pump hire, or the short-load fee. On a small residential slab those items routinely add up to more than the concrete itself, so build them into your budget separately.</p>
+
+        <h2>Questions people ask</h2>
+      <details class="faq">
+        <summary>How many 80 lb bags of concrete make a cubic yard?</summary>
+        <div><p>Forty-five. An 80 lb bag yields about 0.60 cubic feet and there are 27 cubic feet in a cubic yard. For 60 lb bags it is 60 bags, and for 40 lb bags it is 90.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How much concrete do I need for a 10 × 10 patio?</summary>
+        <div><p>At 4 inches thick, a 10 ft × 10 ft slab is 100 ft² × 0.333 ft = 33.3 cubic feet, which is 1.23 cubic yards. With a 10% waste allowance you would order 1.5 cubic yards, or mix roughly 56 × 80 lb bags.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Can I pour a slab in two sessions?</summary>
+        <div><p>Not without consequences. Concrete placed against concrete that has already begun to set forms a cold joint, which is weaker than the surrounding slab and is a likely crack line. If a slab genuinely has to be poured in stages, plan a proper construction joint with keyed or doweled reinforcement rather than simply stopping and restarting.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Does this include rebar?</summary>
+        <div><p>No. This calculates concrete volume only. Reinforcement is sized from the span, the load and your local code, and it needs to be worked out separately.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How long before I can walk on it?</summary>
+        <div><p>Usually 24 to 48 hours for foot traffic and around seven days before vehicles, though this varies with mix design and temperature. Concrete reaches most of its design strength at 28 days. Cold weather slows everything down substantially.</p></div>
+      </details>
+          </div>
+
+          <div class="callout">
+            <strong>Check before you order</strong>
+            <p>These figures are for planning. Measure the job yourself, confirm quantities
+            against the product data sheet, and check anything structural against your local
+            building code before you buy materials or start building.</p>
+          </div>
+        </div>
+
+      <aside class="rail">
+        <div class="rail-card">
+          <h3>Related calculators</h3>
+          <ul>
+          <li><a href="../calculators/gravel.html">Gravel &amp; base calculator</a></li>
+          <li><a href="../calculators/deck.html">Deck boards calculator</a></li>
+          <li><a href="../calculators/drywall.html">Drywall calculator</a></li>
+            <li><a href="../index.html#calculators">All calculators</a></li>
+          </ul>
+        </div>
+        <div class="ad ad--rail" data-slot="calc-rail" data-format="rectangle"></div>
+      </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Measure Twice</h4>
+          <p>Material and cost calculators for trades and DIY. Free, no sign-up, works on a phone with one bar of signal.</p>
+        </div>
+        <div>
+          <h4>Popular calculators</h4>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete</a></li>
+          <li><a href="../calculators/paint.html">Paint</a></li>
+          <li><a href="../calculators/flooring.html">Flooring</a></li>
+          <li><a href="../calculators/tile.html">Tile &amp; grout</a></li>
+          <li><a href="../calculators/drywall.html">Drywall</a></li>
+            <li><a href="../index.html#calculators">See all</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="../about.html">About &amp; method</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../privacy.html">Privacy &amp; cookies</a></li>
+            <li><a href="../terms.html">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">
+        &copy; <span id="year">2026</span> Measure Twice. Estimates are for planning only —
+        always confirm quantities against your own measurements, the product data sheet
+        and your local building code before ordering or building.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

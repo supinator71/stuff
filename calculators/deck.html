@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deck Board Calculator — Boards, Joists and Screws</title>
+  <meta name="description" content="Work out how many deck boards a rectangular deck needs, including the gap between boards, lineal footage, joist count and deck screws.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/calculators/deck.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Deck Board Calculator — Boards, Joists and Screws">
+  <meta property="og:description" content="Work out how many deck boards a rectangular deck needs, including the gap between boards, lineal footage, joist count and deck screws.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/calculators/deck.html">
+  <meta property="og:site_name" content="Measure Twice">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#e2611a">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="../assets/js/units.js" defer></script>
+  <script src="../assets/js/calc.js" defer></script>
+  <script src="../assets/js/calcs/deck.js" defer></script>
+  <script src="../assets/js/ads.js" defer></script>
+  <script src="../assets/js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Deck board calculator","url":"https://YOUR-DOMAIN.example/calculators/deck.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Work out how many deck boards a rectangular deck needs, including the gap between boards, lineal footage, joist count and deck screws.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculators","item":"https://YOUR-DOMAIN.example/index.html#calculators"},{"@type":"ListItem","position":2,"name":"Deck boards","item":"https://YOUR-DOMAIN.example/calculators/deck.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many boards do I need for a 12 \u00d7 16 deck?","acceptedAnswer":{"@type":"Answer","text":"With 5-1/2 in boards and a 3/16 in gap, a 12 ft width needs 26 rows. At 16 ft long that is 416 lineal feet, or 29 boards of 16 ft once you add 10% waste. If you run one full-length board per row with no joins, it is 26 boards."}},{"@type":"Question","name":"What gap should I leave between deck boards?","acceptedAnswer":{"@type":"Answer","text":"About 3/16 in for dry or kiln-dried lumber. For wet-treated lumber, install them nearly touching and let the gap open as they dry \u2014 they shrink across the width. For composite, follow the manufacturer's figure exactly."}},{"@type":"Question","name":"Should joists be 16 in or 12 in on centre?","acceptedAnswer":{"@type":"Answer","text":"Sixteen inches is standard for timber decking laid perpendicular to the joists. Go to 12 in for diagonal layouts and for most composite decking, and check the decking manufacturer's requirement \u2014 many void the warranty at 16 in."}},{"@type":"Question","name":"How many screws per deck board?","acceptedAnswer":{"@type":"Answer","text":"Two at every joist crossing. A 16 ft board over joists at 16 in centres crosses 13 joists, so 26 screws per board. Use screws rated for treated lumber \u2014 hot-dip galvanised or stainless."}},{"@type":"Question","name":"Which direction should deck boards run?","acceptedAnswer":{"@type":"Answer","text":"Usually parallel to the longest side of the house, so the joists span the shorter direction. Enter that dimension as the deck length here \u2014 it is the direction the boards run."}}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="7" width="21" height="10" rx="1.5" fill="#e2611a" stroke="#14171a" stroke-width="1.6"/><path d="M6 7v3.2M9 7v4.6M12 7v3.2M15 7v4.6M18 7v3.2" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Measure <b>Twice</b></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html#calculators" aria-current="page">Calculators</a>
+        <a href="../guides/index.html">Guides</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page">
+      <div class="wrap page-layout">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><a href="../index.html">Calculators</a></li>
+              <li>Deck boards</li>
+            </ol>
+          </nav>
+
+          <h1>Deck board calculator</h1>
+
+          <div data-calc="deck"></div>
+
+          <div class="ad ad--leaderboard" data-slot="calc-below"></div>
+
+          <div class="prose">
+        <p>Deck boards are ordered in lineal feet but installed in rows, and the two are separated by a detail that trips up nearly every first-time estimate: the gap. A 5-1/2&nbsp;inch board with a 3/16&nbsp;inch gap does not cover 5-1/2&nbsp;inches of deck, and across a twelve-foot span that difference is most of an extra row.</p>
+        <p>This calculates the rows from the real board pitch, converts to lineal footage and boards, and works out the joists and fasteners underneath.</p>
+        <h2>How the maths works</h2>
+<div class="formula">pitch = board width + gap<br>
+rows = deck width &divide; pitch, <em>rounded up</em><br>
+lineal = rows &times; deck length &times; (1 + waste %)<br>
+boards = lineal &divide; board length, <em>rounded up</em></div>
+<p>A 16&nbsp;ft &times; 12&nbsp;ft deck with 5-1/2&nbsp;in boards and a 3/16&nbsp;in gap has a pitch of 5.6875&nbsp;in. Twelve feet is 144&nbsp;in, so you need 26 rows. That is 26 &times; 16 = 416 lineal feet, 458 with 10% waste, and 29 boards at 16&nbsp;ft each.</p>
+<p>The calculator also shows what happens if you refuse to butt-join anything and run one continuous board per row: 26 boards, less waste, but every board must be a full 16&nbsp;footer, which is more expensive per board and harder to source straight.</p>
+        <h2>The gap, and why treated lumber changes it</h2>
+<p>Decking needs a gap for drainage and airflow. How much depends on what the board is doing next:</p>
+<ul>
+  <li><strong>Kiln-dried or dry lumber:</strong> gap it at 3/16&nbsp;in. It is already at moisture equilibrium and will not move much.</li>
+  <li><strong>Wet-treated lumber</strong> &mdash; the heavy, dripping kind straight off the rack &mdash; shrinks across its width as it dries, sometimes by a quarter inch on a 5-1/2&nbsp;in board. Install these nearly touching, with just a nail shank as a spacer, and let the gap open up as they dry.</li>
+  <li><strong>Composite:</strong> follow the manufacturer, always. Composite expands lengthwise with heat rather than shrinking across its width, and the end gaps matter more than the side gaps.</li>
+</ul>
+<p>Getting this backwards is the classic deck mistake. Gap wet lumber at 3/16&nbsp;in and you will end up with half-inch gaps a heel can catch in.</p>
+        <h2>Joist spacing</h2>
+<table>
+  <thead><tr><th>Decking</th><th class="num">Spacing</th></tr></thead>
+  <tbody>
+    <tr><td>Timber, laid perpendicular</td><td class="num">16 in / 400 mm</td></tr>
+    <tr><td>Timber, laid diagonally</td><td class="num">12 in / 300 mm</td></tr>
+    <tr><td>Most composite, perpendicular</td><td class="num">12&ndash;16 in — check the brand</td></tr>
+    <tr><td>Composite, diagonal</td><td class="num">12 in / 300 mm</td></tr>
+    <tr><td>Under a hot tub or heavy load</td><td class="num">Engineered — not a rule of thumb</td></tr>
+  </tbody>
+</table>
+<p>Laying boards diagonally increases the unsupported span between joists by about 40%, which is why the spacing tightens. Composite in particular sags between joists that are too far apart, and it does not spring back.</p>
+<p>Joist spacing and span are code items in every jurisdiction I know of. Check yours before ordering framing, because the span tables are not optional and an inspector will find it.</p>
+        <h2>What is not included</h2>
+<p>This covers the walking surface and the joists directly under it. Not included: beams, posts, footings, joist hangers and connectors, ledger board and its flashing, stairs, railing, or the hardware for any of it.</p>
+<p>On a typical deck those items are a large share of the total cost &mdash; railing alone is often a quarter of the material bill. Two details worth naming because they are the ones that fail: <strong>ledger flashing</strong>, which keeps water out of the rim joist and is the single most common cause of a deck collapsing away from a house, and <strong>the fasteners themselves</strong>, which must be rated for contact with modern treated lumber or they will corrode. Use hot-dip galvanised or stainless.</p>
+
+        <h2>Questions people ask</h2>
+      <details class="faq">
+        <summary>How many boards do I need for a 12 × 16 deck?</summary>
+        <div><p>With 5-1/2 in boards and a 3/16 in gap, a 12 ft width needs 26 rows. At 16 ft long that is 416 lineal feet, or 29 boards of 16 ft once you add 10% waste. If you run one full-length board per row with no joins, it is 26 boards.</p></div>
+      </details>
+      <details class="faq">
+        <summary>What gap should I leave between deck boards?</summary>
+        <div><p>About 3/16 in for dry or kiln-dried lumber. For wet-treated lumber, install them nearly touching and let the gap open as they dry — they shrink across the width. For composite, follow the manufacturer&#x27;s figure exactly.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Should joists be 16 in or 12 in on centre?</summary>
+        <div><p>Sixteen inches is standard for timber decking laid perpendicular to the joists. Go to 12 in for diagonal layouts and for most composite decking, and check the decking manufacturer&#x27;s requirement — many void the warranty at 16 in.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How many screws per deck board?</summary>
+        <div><p>Two at every joist crossing. A 16 ft board over joists at 16 in centres crosses 13 joists, so 26 screws per board. Use screws rated for treated lumber — hot-dip galvanised or stainless.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Which direction should deck boards run?</summary>
+        <div><p>Usually parallel to the longest side of the house, so the joists span the shorter direction. Enter that dimension as the deck length here — it is the direction the boards run.</p></div>
+      </details>
+          </div>
+
+          <div class="callout">
+            <strong>Check before you order</strong>
+            <p>These figures are for planning. Measure the job yourself, confirm quantities
+            against the product data sheet, and check anything structural against your local
+            building code before you buy materials or start building.</p>
+          </div>
+        </div>
+
+      <aside class="rail">
+        <div class="rail-card">
+          <h3>Related calculators</h3>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete calculator</a></li>
+          <li><a href="../calculators/gravel.html">Gravel &amp; base calculator</a></li>
+          <li><a href="../calculators/flooring.html">Flooring calculator</a></li>
+            <li><a href="../index.html#calculators">All calculators</a></li>
+          </ul>
+        </div>
+        <div class="ad ad--rail" data-slot="calc-rail" data-format="rectangle"></div>
+      </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Measure Twice</h4>
+          <p>Material and cost calculators for trades and DIY. Free, no sign-up, works on a phone with one bar of signal.</p>
+        </div>
+        <div>
+          <h4>Popular calculators</h4>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete</a></li>
+          <li><a href="../calculators/paint.html">Paint</a></li>
+          <li><a href="../calculators/flooring.html">Flooring</a></li>
+          <li><a href="../calculators/tile.html">Tile &amp; grout</a></li>
+          <li><a href="../calculators/drywall.html">Drywall</a></li>
+            <li><a href="../index.html#calculators">See all</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="../about.html">About &amp; method</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../privacy.html">Privacy &amp; cookies</a></li>
+            <li><a href="../terms.html">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">
+        &copy; <span id="year">2026</span> Measure Twice. Estimates are for planning only —
+        always confirm quantities against your own measurements, the product data sheet
+        and your local building code before ordering or building.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drywall Calculator — Sheets, Screws, Compound and Tape</title>
+  <meta name="description" content="Work out how many drywall sheets a room needs in 4×8, 4×10 or 4×12, plus the screws, joint compound and tape to finish it.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/calculators/drywall.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Drywall Calculator — Sheets, Screws, Compound and Tape">
+  <meta property="og:description" content="Work out how many drywall sheets a room needs in 4×8, 4×10 or 4×12, plus the screws, joint compound and tape to finish it.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/calculators/drywall.html">
+  <meta property="og:site_name" content="Measure Twice">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#e2611a">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="../assets/js/units.js" defer></script>
+  <script src="../assets/js/calc.js" defer></script>
+  <script src="../assets/js/calcs/drywall.js" defer></script>
+  <script src="../assets/js/ads.js" defer></script>
+  <script src="../assets/js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Drywall calculator","url":"https://YOUR-DOMAIN.example/calculators/drywall.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Work out how many drywall sheets a room needs in 4\u00d78, 4\u00d710 or 4\u00d712, plus the screws, joint compound and tape to finish it.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculators","item":"https://YOUR-DOMAIN.example/index.html#calculators"},{"@type":"ListItem","position":2,"name":"Drywall","item":"https://YOUR-DOMAIN.example/calculators/drywall.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many sheets of drywall for a 12 \u00d7 12 room?","acceptedAnswer":{"@type":"Answer","text":"With 8 ft walls, that is 384 ft\u00b2 of wall plus a 144 ft\u00b2 ceiling, so 528 ft\u00b2 total. With 10% waste and 4 \u00d7 8 sheets, you need 19 sheets. Using 4 \u00d7 12 sheets it drops to 13."}},{"@type":"Question","name":"Should I use 1/2 in or 5/8 in drywall?","acceptedAnswer":{"@type":"Answer","text":"Half inch for walls, 5/8 in for ceilings. Half-inch board on ceilings sags between joists, especially at 24 in centres, and once it sags it does not come back."}},{"@type":"Question","name":"How much joint compound do I need?","acceptedAnswer":{"@type":"Answer","text":"Roughly one gallon per 100 ft\u00b2 of board for a standard three-coat, level-4 finish. A 4.5 gallon bucket covers about 450 ft\u00b2. Double it if you are skim-coating the whole surface to level 5."}},{"@type":"Question","name":"How many screws per sheet of drywall?","acceptedAnswer":{"@type":"Answer","text":"About 32 for a wall sheet \u2014 16 in spacing in the field, 8 in around the perimeter. Ceilings take more, closer to 40, because the board is fighting gravity."}},{"@type":"Question","name":"Do I deduct doors and windows?","acceptedAnswer":{"@type":"Answer","text":"Usually not. Most installers sheet straight over the opening and cut it out, which is faster and puts the joints somewhere sensible. Deduct only if you are working to a tight material budget and cutting each piece to fit."}}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="7" width="21" height="10" rx="1.5" fill="#e2611a" stroke="#14171a" stroke-width="1.6"/><path d="M6 7v3.2M9 7v4.6M12 7v3.2M15 7v4.6M18 7v3.2" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Measure <b>Twice</b></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html#calculators" aria-current="page">Calculators</a>
+        <a href="../guides/index.html">Guides</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page">
+      <div class="wrap page-layout">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><a href="../index.html">Calculators</a></li>
+              <li>Drywall</li>
+            </ol>
+          </nav>
+
+          <h1>Drywall calculator</h1>
+
+          <div data-calc="drywall"></div>
+
+          <div class="ad ad--leaderboard" data-slot="calc-below"></div>
+
+          <div class="prose">
+        <p>Sheet count is straightforward arithmetic. What catches people out is everything else on the load: the screws, the compound, the tape, and the fact that choosing a longer board changes how much finishing work you have signed up for.</p>
+        <p>This works out all four, and it treats board size as a decision rather than an afterthought &mdash; because it is the one choice on this page that affects how good the finished wall looks.</p>
+        <h2>How the maths works</h2>
+<div class="formula">wall area = 2 &times; (length + width) &times; height<br>
+total = wall area + ceiling (if boarding it)<br>
+sheets = total &times; (1 + waste %) &divide; area per sheet, <em>rounded up</em></div>
+<p>A 14&nbsp;&times;&nbsp;12&nbsp;ft room with 8&nbsp;ft walls has 416&nbsp;ft&sup2; of wall. Add the 168&nbsp;ft&sup2; ceiling and you are boarding 584&nbsp;ft&sup2;. With 10% waste that is 642&nbsp;ft&sup2;, which at 32&nbsp;ft&sup2; per 4&nbsp;&times;&nbsp;8 sheet comes to 21 sheets.</p>
+<p>Most estimators board straight over door and window openings and cut them out afterwards &mdash; it is faster, and it guarantees the joints do not land at a corner of the opening, which is exactly where cracks start. That is why the deduction field defaults to zero.</p>
+        <h2>Sheet size is a finishing decision</h2>
+<table>
+  <thead><tr><th>Sheet</th><th class="num">Area</th><th>Use when</th></tr></thead>
+  <tbody>
+    <tr><td>4 &times; 8 ft</td><td class="num">32 ft&sup2;</td><td>Tight access, stairwells, one person working alone</td></tr>
+    <tr><td>4 &times; 10 ft</td><td class="num">40 ft&sup2;</td><td>Standard 8 ft wall hung horizontally with fewer joints</td></tr>
+    <tr><td>4 &times; 12 ft</td><td class="num">48 ft&sup2;</td><td>Long walls — the fewest butt joints of any option</td></tr>
+    <tr><td>1200 &times; 2400 mm</td><td class="num">2.88 m&sup2;</td><td>Metric standard</td></tr>
+  </tbody>
+</table>
+<p>The reason to reach for 12&nbsp;ft board is butt joints. A butt joint &mdash; where two square-cut sheet ends meet &mdash; has no tapered edge, so the tape and compound sit proud of the surface and have to be feathered out over two feet or more to hide. Tapered edge joints, where the long edges meet, are designed to be filled and are far easier to finish flat.</p>
+<p>Every 12&nbsp;ft sheet you use instead of an 8&nbsp;ft sheet is one fewer butt joint to fight. If the board will physically fit up the stairs and into the room, use the longer one.</p>
+        <h2>Where the supply figures come from</h2>
+<ul>
+  <li><strong>Screws:</strong> 32 per sheet, which is roughly 16&nbsp;in spacing in the field and 8&nbsp;in around the edges. That works out at about one pound of 1-1/4&nbsp;in coarse screws per 10 sheets.</li>
+  <li><strong>Joint compound:</strong> one US gallon per 100&nbsp;ft&sup2; of board, which covers taping plus two finish coats to a standard level-4 finish. A level-5 skim over the entire surface roughly doubles it.</li>
+  <li><strong>Tape:</strong> 400 linear feet per 1,000&nbsp;ft&sup2; of board. Standard paper tape rolls are 250&nbsp;ft or 500&nbsp;ft.</li>
+</ul>
+<p>These are trade rules of thumb, not physics. They hold up well on a normal room and less well on something with a lot of corners, where tape consumption climbs quickly. Buy the next size up on compound; it stores fine and running out mid-coat is genuinely painful.</p>
+        <h2>Thickness and where it matters</h2>
+<p>Half-inch board is standard for walls. Ceilings are the exception: use 5/8&nbsp;in on ceilings, particularly where the framing is at 24&nbsp;in centres, because half-inch board sags between joists over time and the sag is permanent.</p>
+<p>Moisture-resistant board belongs in bathrooms and laundries, and cement backer board &mdash; not drywall of any kind &mdash; belongs behind tile in a shower. Fire-rated type X board is required in specific assemblies such as garage-to-house walls; that is a code question, and your local building department is the authority, not a calculator.</p>
+
+        <h2>Questions people ask</h2>
+      <details class="faq">
+        <summary>How many sheets of drywall for a 12 × 12 room?</summary>
+        <div><p>With 8 ft walls, that is 384 ft² of wall plus a 144 ft² ceiling, so 528 ft² total. With 10% waste and 4 × 8 sheets, you need 19 sheets. Using 4 × 12 sheets it drops to 13.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Should I use 1/2 in or 5/8 in drywall?</summary>
+        <div><p>Half inch for walls, 5/8 in for ceilings. Half-inch board on ceilings sags between joists, especially at 24 in centres, and once it sags it does not come back.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How much joint compound do I need?</summary>
+        <div><p>Roughly one gallon per 100 ft² of board for a standard three-coat, level-4 finish. A 4.5 gallon bucket covers about 450 ft². Double it if you are skim-coating the whole surface to level 5.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How many screws per sheet of drywall?</summary>
+        <div><p>About 32 for a wall sheet — 16 in spacing in the field, 8 in around the perimeter. Ceilings take more, closer to 40, because the board is fighting gravity.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Do I deduct doors and windows?</summary>
+        <div><p>Usually not. Most installers sheet straight over the opening and cut it out, which is faster and puts the joints somewhere sensible. Deduct only if you are working to a tight material budget and cutting each piece to fit.</p></div>
+      </details>
+          </div>
+
+          <div class="callout">
+            <strong>Check before you order</strong>
+            <p>These figures are for planning. Measure the job yourself, confirm quantities
+            against the product data sheet, and check anything structural against your local
+            building code before you buy materials or start building.</p>
+          </div>
+        </div>
+
+      <aside class="rail">
+        <div class="rail-card">
+          <h3>Related calculators</h3>
+          <ul>
+          <li><a href="../calculators/paint.html">Paint calculator</a></li>
+          <li><a href="../calculators/flooring.html">Flooring calculator</a></li>
+          <li><a href="../calculators/concrete.html">Concrete calculator</a></li>
+            <li><a href="../index.html#calculators">All calculators</a></li>
+          </ul>
+        </div>
+        <div class="ad ad--rail" data-slot="calc-rail" data-format="rectangle"></div>
+      </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Measure Twice</h4>
+          <p>Material and cost calculators for trades and DIY. Free, no sign-up, works on a phone with one bar of signal.</p>
+        </div>
+        <div>
+          <h4>Popular calculators</h4>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete</a></li>
+          <li><a href="../calculators/paint.html">Paint</a></li>
+          <li><a href="../calculators/flooring.html">Flooring</a></li>
+          <li><a href="../calculators/tile.html">Tile &amp; grout</a></li>
+          <li><a href="../calculators/drywall.html">Drywall</a></li>
+            <li><a href="../index.html#calculators">See all</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="../about.html">About &amp; method</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../privacy.html">Privacy &amp; cookies</a></li>
+            <li><a href="../terms.html">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">
+        &copy; <span id="year">2026</span> Measure Twice. Estimates are for planning only —
+        always confirm quantities against your own measurements, the product data sheet
+        and your local building code before ordering or building.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

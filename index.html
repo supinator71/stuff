@@ -1,223 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Brightburst Arcade — Free Learning Games for Kids</title>
-<meta name="description" content="Bright, friendly browser games for ages 5–10. Practise maths, memory, typing and drawing. No sign-up, no chat, no tracking — just play.">
-<meta name="theme-color" content="#ffc93c">
-<meta property="og:title" content="Brightburst Arcade — Free Learning Games for Kids">
-<meta property="og:description" content="Bright, friendly browser games for ages 5–10. No sign-up, no chat, no tracking.">
-<meta property="og:type" content="website">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Measure Twice — Material Calculators for Trades and DIY</title>
+  <meta name="description" content="Free material and cost calculators for concrete, paint, flooring, tile, drywall, mulch, gravel and decking. Feet-and-inches input, metric toggle, no sign-up.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Measure Twice — Material Calculators for Trades and DIY">
+  <meta property="og:description" content="Free material and cost calculators for concrete, paint, flooring, tile, drywall, mulch, gravel and decking. Feet-and-inches input, metric toggle, no sign-up.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/">
+  <meta property="og:site_name" content="Measure Twice">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#e2611a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <script src="assets/js/units.js" defer></script>
+  <script src="assets/js/calc.js" defer></script>
+  <script src="assets/js/ads.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Measure Twice","url":"https://YOUR-DOMAIN.example/","description":"Material and cost calculators for trades and DIY"}</script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to games</a>
-
-<header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="index.html">
-      <span class="brand-mark" aria-hidden="true">🌈</span>
-      Brightburst Arcade
-    </a>
-    <nav class="site-nav" aria-label="Main">
-      <a href="index.html" aria-current="page">Games</a>
-      <a href="parents.html">For grown-ups</a>
-      <a href="privacy.html">Privacy</a>
-    </nav>
-    <span class="member-chip" aria-live="polite">✨ Member</span>
-  </div>
-</header>
-
-<main id="main">
-
-  <section class="hero">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
     <div class="wrap">
-      <h1>Play. Learn. Giggle a bit.</h1>
-      <p class="lede">Five bright browser games for ages 5&ndash;10. They open instantly, work on a tablet or a school laptop, and there is nothing to sign up for.</p>
-      <div class="hero-cta">
-        <a class="btn btn--big btn--lime" href="#games">🎮 Start playing</a>
-        <a class="btn btn--big btn--ghost" href="parents.html">👋 Info for grown-ups</a>
-      </div>
-      <ul class="hero-badges">
-        <li>🚫 No chat or messaging</li>
-        <li>🍪 No tracking cookies</li>
-        <li>📴 Works offline once loaded</li>
-        <li>♿ Keyboard friendly</li>
-      </ul>
+      <a class="brand" href="index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="7" width="21" height="10" rx="1.5" fill="#e2611a" stroke="#14171a" stroke-width="1.6"/><path d="M6 7v3.2M9 7v4.6M12 7v3.2M15 7v4.6M18 7v3.2" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Measure <b>Twice</b></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html#calculators" aria-current="page">Calculators</a>
+        <a href="guides/index.html">Guides</a>
+        <a href="about.html">About</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <section class="section" id="games">
-    <div class="wrap">
-
-      <div class="progress-strip">
-        <div class="progress-stat"><b id="stat-stars">0</b><span>stars earned</span></div>
-        <div class="progress-stat"><b id="stat-games">0</b><span>games tried</span></div>
-        <div class="progress-stat"><b id="stat-plays">0</b><span>rounds played</span></div>
+  <main id="main">
+    <section class="hero">
+      <div class="wrap">
+        <span class="kicker">Free · No sign-up</span>
+        <h1>Work out exactly how much material the job needs</h1>
+        <p class="lede">Eight calculators for the questions that come up on every build:
+        how much concrete, how many boxes, how many sheets, how many tons. They take
+        feet-and-inches the way you actually write them, show their working, and switch
+        to metric in one tap.</p>
+        <p><a class="btn" href="#calculators">Pick a calculator</a></p>
       </div>
+    </section>
 
-      <div class="section-head">
-        <h2>Pick a game</h2>
-        <p>Scores are saved in this browser only &mdash; nothing is sent anywhere.</p>
-      </div>
-
-      <ul class="game-grid">
+    <section class="section" id="calculators">
+      <div class="wrap">
+        <h2>Calculators</h2>
+        <ul class="tool-grid">
         <li>
-          <a class="game-card" href="games/counting-carnival.html" data-game="counting-carnival">
-            <div class="game-card__art art--coral" aria-hidden="true">🎈</div>
-            <div class="game-card__body">
-              <h3>Counting Carnival</h3>
-              <p>Pop the balloon holding the right answer. Sums get trickier the better you do.</p>
-              <div class="game-card__meta">
-                <span class="tag tag--free">Free</span>
-                <span class="tag">Ages 5–9</span>
-                <span class="game-card__best"></span>
-              </div>
-            </div>
+          <a class="tool-card" href="calculators/concrete.html">
+            <span class="tool-card__icon" aria-hidden="true">▦</span>
+            <h3>Concrete calculator</h3>
+            <p>Slabs and footings in cubic yards or metres, plus the bag count if you are mixing by hand.</p>
           </a>
         </li>
         <li>
-          <a class="game-card" href="games/memory-match.html" data-game="memory-match">
-            <div class="game-card__art art--grape" aria-hidden="true">🐼</div>
-            <div class="game-card__body">
-              <h3>Memory Match</h3>
-              <p>Flip the cards and find every animal pair in as few tries as you can.</p>
-              <div class="game-card__meta">
-                <span class="tag tag--free">Free</span>
-                <span class="tag">Ages 4–10</span>
-                <span class="game-card__best"></span>
-              </div>
-            </div>
+          <a class="tool-card" href="calculators/paint.html">
+            <span class="tool-card__icon" aria-hidden="true">◑</span>
+            <h3>Paint calculator</h3>
+            <p>Gallons or litres for a room, with doors, windows, ceilings and coats accounted for.</p>
           </a>
         </li>
         <li>
-          <a class="game-card" href="games/star-catcher.html" data-game="star-catcher">
-            <div class="game-card__art art--sky" aria-hidden="true">🌟</div>
-            <div class="game-card__body">
-              <h3>Star Catcher</h3>
-              <p>Slide your basket to catch falling stars and sweets. Watch out for bombs!</p>
-              <div class="game-card__meta">
-                <span class="tag tag--free">Free</span>
-                <span class="tag">Ages 5–10</span>
-                <span class="game-card__best"></span>
-              </div>
-            </div>
+          <a class="tool-card" href="calculators/flooring.html">
+            <span class="tool-card__icon" aria-hidden="true">▤</span>
+            <h3>Flooring calculator</h3>
+            <p>Boxes of laminate, vinyl plank or hardwood, with the right waste factor for your lay pattern.</p>
           </a>
         </li>
         <li>
-          <a class="game-card" href="games/typing-tornado.html" data-game="typing-tornado" data-member="true">
-            <span class="lock-badge" aria-hidden="true">🔒</span>
-            <div class="game-card__art art--sun" aria-hidden="true">⌨️</div>
-            <div class="game-card__body">
-              <h3>Typing Tornado</h3>
-              <p>Type the falling words before the storm lands them. Real keyboard practice.</p>
-              <div class="game-card__meta">
-                <span class="tag tag--member">Member</span>
-                <span class="tag">Ages 6–10</span>
-                <span class="game-card__best"></span>
-              </div>
-            </div>
+          <a class="tool-card" href="calculators/tile.html">
+            <span class="tool-card__icon" aria-hidden="true">▩</span>
+            <h3>Tile &amp; grout calculator</h3>
+            <p>Tile counts that account for the grout joint, plus a grout quantity derived from tile size and depth.</p>
           </a>
         </li>
         <li>
-          <a class="game-card" href="games/color-splash.html" data-game="color-splash" data-member="true">
-            <span class="lock-badge" aria-hidden="true">🔒</span>
-            <div class="game-card__art art--bubble" aria-hidden="true">🎨</div>
-            <div class="game-card__body">
-              <h3>Color Splash</h3>
-              <p>A paint studio with brushes, stickers and a save button. No timers, no losing.</p>
-              <div class="game-card__meta">
-                <span class="tag tag--member">Member</span>
-                <span class="tag">Ages 4–10</span>
-                <span class="game-card__best"></span>
-              </div>
-            </div>
+          <a class="tool-card" href="calculators/drywall.html">
+            <span class="tool-card__icon" aria-hidden="true">▭</span>
+            <h3>Drywall calculator</h3>
+            <p>Sheets, screws, joint compound and tape for a room, in your choice of board size.</p>
           </a>
         </li>
-      </ul>
-
-      <div class="ad-slot" data-slot="home-leaderboard" data-size="728×90"></div>
-
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Why grown-ups like it here</h2>
-      </div>
-      <div class="cols-3">
-        <div class="feature">
-          <span class="ico" aria-hidden="true">🔐</span>
-          <h3>Nothing to sign up for</h3>
-          <p class="muted">No accounts, no email, no profile. Kids open the page and play.</p>
-        </div>
-        <div class="feature">
-          <span class="ico" aria-hidden="true">🤫</span>
-          <h3>No chat, ever</h3>
-          <p class="muted">There is no way for a child to message anyone, or for anyone to message them.</p>
-        </div>
-        <div class="feature">
-          <span class="ico" aria-hidden="true">🧠</span>
-          <h3>Actually educational</h3>
-          <p class="muted">Arithmetic, working memory, touch typing and free drawing — dressed up as fun.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="panel center">
-        <h2>Unlock the whole arcade</h2>
-        <p class="muted" style="max-width:52ch;margin-inline:auto">Membership opens every game, removes all ad space, and keeps the site running. Cancel any time.</p>
-        <p><a class="btn btn--big btn--grape" href="parents.html#join">See membership options</a></p>
-        <p class="small muted">A grown-up needs to complete this step.</p>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <div class="footer-grid">
-      <div>
-        <h4>Brightburst Arcade</h4>
-        <p class="small">Bright little games for small humans. Made to be safe, quick and free of nonsense.</p>
-      </div>
-      <div>
-        <h4>Games</h4>
-        <ul class="small">
-          <li><a href="games/counting-carnival.html">Counting Carnival</a></li>
-          <li><a href="games/memory-match.html">Memory Match</a></li>
-          <li><a href="games/star-catcher.html">Star Catcher</a></li>
-          <li><a href="games/typing-tornado.html">Typing Tornado</a></li>
-          <li><a href="games/color-splash.html">Color Splash</a></li>
+        <li>
+          <a class="tool-card" href="calculators/mulch.html">
+            <span class="tool-card__icon" aria-hidden="true">▓</span>
+            <h3>Mulch &amp; topsoil calculator</h3>
+            <p>Cubic yards or bags for a bed, plus a straight bulk-versus-bagged cost comparison.</p>
+          </a>
+        </li>
+        <li>
+          <a class="tool-card" href="calculators/gravel.html">
+            <span class="tool-card__icon" aria-hidden="true">▚</span>
+            <h3>Gravel &amp; base calculator</h3>
+            <p>Tons and cubic yards of aggregate, with a compaction allowance for sub-base work.</p>
+          </a>
+        </li>
+        <li>
+          <a class="tool-card" href="calculators/deck.html">
+            <span class="tool-card__icon" aria-hidden="true">☰</span>
+            <h3>Deck boards calculator</h3>
+            <p>Board count, lineal footage, joists and screws for a rectangular deck.</p>
+          </a>
+        </li>
         </ul>
-      </div>
-      <div>
-        <h4>Grown-ups</h4>
-        <ul class="small">
-          <li><a href="parents.html">Parent &amp; teacher info</a></li>
-          <li><a href="parents.html#join">Membership</a></li>
-          <li><a href="privacy.html">Privacy policy</a></li>
-          <li><a href="terms.html">Terms of use</a></li>
-        </ul>
-      </div>
-    </div>
-    <p class="footer-note">&copy; <span id="year">2026</span> Brightburst Arcade. Built to be kid-safe: no accounts, no chat, no behavioural advertising.</p>
-  </div>
-</footer>
 
-<script src="assets/js/arcade.js"></script>
-<script src="assets/js/membership.js"></script>
-<script src="assets/js/ads.js"></script>
-<script src="assets/js/site.js"></script>
+        <div class="ad ad--leaderboard" data-slot="home-top"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="cols-3">
+          <div>
+            <h3>Feet and inches, written normally</h3>
+            <p class="muted">Type <code>12'6"</code>, <code>12 ft 6 in</code>, <code>12-6</code>
+            or <code>12.5</code>. All four work. Switching to metric converts what you have
+            already typed rather than clearing it.</p>
+          </div>
+          <div>
+            <h3>The working is shown</h3>
+            <p class="muted">Every calculator explains the formula it used and states its
+            assumptions, so you can check the number rather than trust it. Where a figure is
+            a trade rule of thumb, it says so.</p>
+          </div>
+          <div>
+            <h3>Costs, if you want them</h3>
+            <p class="muted">Enter your own local prices and the results include a materials
+            total. Leave the price fields blank and you just get quantities.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap wrap--narrow">
+        <h2>Guides</h2>
+        <ul>
+          <li><a href="guides/waste-factors.html">Waste factors: how much extra material to buy</a> — why 10% is the default, and the jobs where it is nowhere near enough</li>
+          <li><a href="guides/concrete-slab-cost.html">What a concrete slab actually costs</a> — the line items beyond the concrete itself, and why quotes vary so much</li>
+        </ul>
+        <div class="ad ad--rect" data-slot="home-mid" data-format="rectangle"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Measure Twice</h4>
+          <p>Material and cost calculators for trades and DIY. Free, no sign-up, works on a phone with one bar of signal.</p>
+        </div>
+        <div>
+          <h4>Popular calculators</h4>
+          <ul>
+          <li><a href="calculators/concrete.html">Concrete</a></li>
+          <li><a href="calculators/paint.html">Paint</a></li>
+          <li><a href="calculators/flooring.html">Flooring</a></li>
+          <li><a href="calculators/tile.html">Tile &amp; grout</a></li>
+          <li><a href="calculators/drywall.html">Drywall</a></li>
+            <li><a href="index.html#calculators">See all</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="guides/index.html">Guides</a></li>
+            <li><a href="about.html">About &amp; method</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy &amp; cookies</a></li>
+            <li><a href="terms.html">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">
+        &copy; <span id="year">2026</span> Measure Twice. Estimates are for planning only —
+        always confirm quantities against your own measurements, the product data sheet
+        and your local building code before ordering or building.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

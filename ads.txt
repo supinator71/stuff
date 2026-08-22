@@ -1,0 +1,10 @@
+# AdSense authorised sellers file.
+#
+# Replace pub-0000000000000000 with your own publisher ID (the digits from
+# ca-pub-XXXXXXXXXXXXXXXX, without the "ca-" prefix) and deploy this file at the
+# root of the domain, reachable at https://your-domain/ads.txt
+#
+# AdSense will warn you in the dashboard until this is correct, and an
+# unauthorised or missing ads.txt lets other parties misrepresent your inventory
+# — it also suppresses bids from buyers that require it.
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gravel Calculator — Tons, Cubic Yards and Base Depth</title>
+  <meta name="description" content="Convert a driveway or patio base into cubic yards and tons of gravel, crusher run, sand or river rock, including a compaction allowance.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/calculators/gravel.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gravel Calculator — Tons, Cubic Yards and Base Depth">
+  <meta property="og:description" content="Convert a driveway or patio base into cubic yards and tons of gravel, crusher run, sand or river rock, including a compaction allowance.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/calculators/gravel.html">
+  <meta property="og:site_name" content="Measure Twice">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#e2611a">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="../assets/js/units.js" defer></script>
+  <script src="../assets/js/calc.js" defer></script>
+  <script src="../assets/js/calcs/gravel.js" defer></script>
+  <script src="../assets/js/ads.js" defer></script>
+  <script src="../assets/js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Gravel, sand & base calculator","url":"https://YOUR-DOMAIN.example/calculators/gravel.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Convert a driveway or patio base into cubic yards and tons of gravel, crusher run, sand or river rock, including a compaction allowance.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculators","item":"https://YOUR-DOMAIN.example/index.html#calculators"},{"@type":"ListItem","position":2,"name":"Gravel & base","item":"https://YOUR-DOMAIN.example/calculators/gravel.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many tons is a yard of gravel?","acceptedAnswer":{"@type":"Answer","text":"About 1.35 US tons for standard crushed stone, and closer to 1.48 for crusher run because the fines pack the voids. Sand is around 1.35 and topsoil closer to 1.1. Moisture moves all of these by several percent."}},{"@type":"Question","name":"How deep should a gravel driveway be?","acceptedAnswer":{"@type":"Answer","text":"Eight to twelve inches of compacted base for a new driveway, built up in 4 inch lifts and compacted between each. If you are just refreshing the surface of an existing driveway, two to three inches of top dressing is normal."}},{"@type":"Question","name":"What is crusher run?","acceptedAnswer":{"@type":"Answer","text":"Crushed stone that still contains all its fines \u2014 the dust and small particles from crushing. Those fines fill the voids between the larger stones so it compacts into a hard, stable layer. Clean washed stone has the fines removed and stays loose, which is what you want for drainage but not for a base."}},{"@type":"Question","name":"Do I need the compaction allowance?","acceptedAnswer":{"@type":"Answer","text":"For any base material that will be plate-compacted, yes \u2014 20% is a reasonable default. Set it to zero for loose decorative stone such as river rock or pea gravel that you are simply spreading."}},{"@type":"Question","name":"Should I use landscape fabric under gravel?","acceptedAnswer":{"@type":"Answer","text":"Under a driveway or patio base on soft or clay soil, a woven geotextile is well worth it \u2014 it stops the stone sinking into the subgrade over the years. Light landscape fabric under decorative gravel mainly slows weeds and is a different, thinner product."}}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="7" width="21" height="10" rx="1.5" fill="#e2611a" stroke="#14171a" stroke-width="1.6"/><path d="M6 7v3.2M9 7v4.6M12 7v3.2M15 7v4.6M18 7v3.2" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Measure <b>Twice</b></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html#calculators" aria-current="page">Calculators</a>
+        <a href="../guides/index.html">Guides</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page">
+      <div class="wrap page-layout">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><a href="../index.html">Calculators</a></li>
+              <li>Gravel &amp; base</li>
+            </ol>
+          </nav>
+
+          <h1>Gravel, sand &amp; base calculator</h1>
+
+          <div data-calc="gravel"></div>
+
+          <div class="ad ad--leaderboard" data-slot="calc-below"></div>
+
+          <div class="prose">
+        <p>Aggregate is ordered by volume and sold by weight, which is where the confusion starts. Ask for &ldquo;three yards of gravel&rdquo; and you will be quoted in tons, and the conversion between the two depends on what the material actually is.</p>
+        <p>This calculator does both, applies a compaction allowance so the finished depth is the depth you asked for, and shows the density it used so you can sanity-check the number against your supplier's.</p>
+        <h2>How the maths works</h2>
+<div class="formula">finished volume = length &times; width &times; depth<br>
+ordered volume = finished volume &times; (1 + compaction %)<br>
+weight = ordered volume &times; bulk density</div>
+<p>A 40&nbsp;ft &times; 10&nbsp;ft driveway base at 4&nbsp;in finished depth is 133&nbsp;ft&sup3;, or 4.94 cubic yards in place. Add 20% for compaction and you are ordering 5.93 cubic yards &mdash; about 8 US tons of crushed stone.</p>
+<p>That 20% is not optional on base material. Crusher run delivered loose and then plate-compacted loses roughly a fifth of its volume. Order the finished depth and your base will end up an inch shallow.</p>
+        <h2>Bulk density by material</h2>
+<table>
+  <thead><tr><th>Material</th><th class="num">kg/m&sup3;</th><th class="num">US tons per yd&sup3;</th></tr></thead>
+  <tbody>
+    <tr><td>Crushed stone / gravel</td><td class="num">1,600</td><td class="num">1.35</td></tr>
+    <tr><td>Crusher run / road base</td><td class="num">1,750</td><td class="num">1.48</td></tr>
+    <tr><td>Pea gravel</td><td class="num">1,700</td><td class="num">1.43</td></tr>
+    <tr><td>Sand</td><td class="num">1,600</td><td class="num">1.35</td></tr>
+    <tr><td>River rock</td><td class="num">1,650</td><td class="num">1.39</td></tr>
+    <tr><td>Topsoil</td><td class="num">1,300</td><td class="num">1.10</td></tr>
+  </tbody>
+</table>
+<p>Treat these as central estimates with about &plusmn;10% of spread. Moisture content alone moves the number several percent &mdash; wet sand weighs meaningfully more than dry sand, and you pay for the water. Your local quarry will give you their actual figure if you ask, and it is worth asking on a big order.</p>
+        <h2>How deep should the base be?</h2>
+<table>
+  <thead><tr><th>Application</th><th class="num">Compacted base depth</th></tr></thead>
+  <tbody>
+    <tr><td>Paver patio, foot traffic</td><td class="num">4 in</td></tr>
+    <tr><td>Paver driveway, cars</td><td class="num">8&ndash;12 in</td></tr>
+    <tr><td>Gravel driveway, new build</td><td class="num">8&ndash;12 in in layers</td></tr>
+    <tr><td>Gravel driveway, top dressing</td><td class="num">2&ndash;3 in</td></tr>
+    <tr><td>Shed or slab base</td><td class="num">4&ndash;6 in</td></tr>
+    <tr><td>Drainage trench</td><td class="num">Fill the trench</td></tr>
+  </tbody>
+</table>
+<p>Anything over about 4&nbsp;inches should go down in layers &mdash; called lifts &mdash; of no more than 4&nbsp;inches, compacting each one before the next. A plate compactor simply cannot densify the bottom of a 10-inch pour, and an uncompacted layer down there will settle later and take your finished surface with it.</p>
+<p>On clay or soft soil, a geotextile fabric under the base is cheap and stops the stone slowly migrating into the subgrade. It is the single best value item in the whole job.</p>
+        <h2>Ordering and delivery</h2>
+<p>Delivery is usually the largest single line on a small aggregate order, and it is charged per trip rather than per ton. Two half-loads cost roughly twice what one full load costs, so it is worth rounding up to a sensible truck quantity if you have anywhere to store the surplus.</p>
+<p>A standard tandem dump truck carries roughly 10&ndash;14 US tons. Below about 5 tons you may be better off with a smaller truck or a trailer, and above 14 you are into multiple trips. Ask for the delivered price rather than the yard price &mdash; the difference is often 30% or more.</p>
+
+        <h2>Questions people ask</h2>
+      <details class="faq">
+        <summary>How many tons is a yard of gravel?</summary>
+        <div><p>About 1.35 US tons for standard crushed stone, and closer to 1.48 for crusher run because the fines pack the voids. Sand is around 1.35 and topsoil closer to 1.1. Moisture moves all of these by several percent.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How deep should a gravel driveway be?</summary>
+        <div><p>Eight to twelve inches of compacted base for a new driveway, built up in 4 inch lifts and compacted between each. If you are just refreshing the surface of an existing driveway, two to three inches of top dressing is normal.</p></div>
+      </details>
+      <details class="faq">
+        <summary>What is crusher run?</summary>
+        <div><p>Crushed stone that still contains all its fines — the dust and small particles from crushing. Those fines fill the voids between the larger stones so it compacts into a hard, stable layer. Clean washed stone has the fines removed and stays loose, which is what you want for drainage but not for a base.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Do I need the compaction allowance?</summary>
+        <div><p>For any base material that will be plate-compacted, yes — 20% is a reasonable default. Set it to zero for loose decorative stone such as river rock or pea gravel that you are simply spreading.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Should I use landscape fabric under gravel?</summary>
+        <div><p>Under a driveway or patio base on soft or clay soil, a woven geotextile is well worth it — it stops the stone sinking into the subgrade over the years. Light landscape fabric under decorative gravel mainly slows weeds and is a different, thinner product.</p></div>
+      </details>
+          </div>
+
+          <div class="callout">
+            <strong>Check before you order</strong>
+            <p>These figures are for planning. Measure the job yourself, confirm quantities
+            against the product data sheet, and check anything structural against your local
+            building code before you buy materials or start building.</p>
+          </div>
+        </div>
+
+      <aside class="rail">
+        <div class="rail-card">
+          <h3>Related calculators</h3>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete calculator</a></li>
+          <li><a href="../calculators/mulch.html">Mulch &amp; topsoil calculator</a></li>
+          <li><a href="../calculators/deck.html">Deck boards calculator</a></li>
+            <li><a href="../index.html#calculators">All calculators</a></li>
+          </ul>
+        </div>
+        <div class="ad ad--rail" data-slot="calc-rail" data-format="rectangle"></div>
+      </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Measure Twice</h4>
+          <p>Material and cost calculators for trades and DIY. Free, no sign-up, works on a phone with one bar of signal.</p>
+        </div>
+        <div>
+          <h4>Popular calculators</h4>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete</a></li>
+          <li><a href="../calculators/paint.html">Paint</a></li>
+          <li><a href="../calculators/flooring.html">Flooring</a></li>
+          <li><a href="../calculators/tile.html">Tile &amp; grout</a></li>
+          <li><a href="../calculators/drywall.html">Drywall</a></li>
+            <li><a href="../index.html#calculators">See all</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="../about.html">About &amp; method</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../privacy.html">Privacy &amp; cookies</a></li>
+            <li><a href="../terms.html">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">
+        &copy; <span id="year">2026</span> Measure Twice. Estimates are for planning only —
+        always confirm quantities against your own measurements, the product data sheet
+        and your local building code before ordering or building.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

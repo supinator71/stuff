@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Brightburst Arcade">
+  <rect width="64" height="64" rx="14" fill="#ffc93c"/>
+  <g fill="none" stroke-width="6" stroke-linecap="round">
+    <path d="M10 48a22 22 0 0 1 44 0" stroke="#ff6b6b"/>
+    <path d="M20 48a12 12 0 0 1 24 0" stroke="#4ecdc4"/>
+  </g>
+  <circle cx="32" cy="48" r="4" fill="#a66cff"/>
+  <path d="M32 8l3.2 6.6 7.3 1-5.3 5.1 1.3 7.2-6.5-3.4-6.5 3.4 1.3-7.2-5.3-5.1 7.3-1z" fill="#fff" stroke="#24243a" stroke-width="2"/>
+</svg>

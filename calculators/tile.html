@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tile Calculator — Tile Count and Grout Quantity</title>
+  <meta name="description" content="Count tiles for a floor or wall including the grout joint, and estimate how much grout the job needs based on tile size, joint width and tile thickness.">
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/calculators/tile.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tile Calculator — Tile Count and Grout Quantity">
+  <meta property="og:description" content="Count tiles for a floor or wall including the grout joint, and estimate how much grout the job needs based on tile size, joint width and tile thickness.">
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/calculators/tile.html">
+  <meta property="og:site_name" content="Measure Twice">
+  <meta name="twitter:card" content="summary">
+  <meta name="theme-color" content="#e2611a">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="../assets/js/units.js" defer></script>
+  <script src="../assets/js/calc.js" defer></script>
+  <script src="../assets/js/calcs/tile.js" defer></script>
+  <script src="../assets/js/ads.js" defer></script>
+  <script src="../assets/js/site.js" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Tile & grout calculator","url":"https://YOUR-DOMAIN.example/calculators/tile.html","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","description":"Count tiles for a floor or wall including the grout joint, and estimate how much grout the job needs based on tile size, joint width and tile thickness.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Calculators","item":"https://YOUR-DOMAIN.example/index.html#calculators"},{"@type":"ListItem","position":2,"name":"Tile & grout","item":"https://YOUR-DOMAIN.example/calculators/tile.html"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many 12 \u00d7 24 tiles are in 100 square feet?","acceptedAnswer":{"@type":"Answer","text":"With a 1/8 in grout joint, each tile occupies 2.03 ft\u00b2, so 100 ft\u00b2 needs 49.2 tiles \u2014 call it 50 bare, or 55 with a 10% waste allowance. Without any joint the bare figure would be 50, which shows how little difference a thin joint makes on a large tile."}},{"@type":"Question","name":"How much grout do I need?","acceptedAnswer":{"@type":"Answer","text":"It depends far more on tile size than floor size. A 100 ft\u00b2 floor in 12 \u00d7 24 tile with 1/8 in joints needs only about 5 lb of grout; the same floor in 4 \u00d7 4 mosaic needs several times that, because there is vastly more joint per square foot."}},{"@type":"Question","name":"What waste percentage for a diagonal tile layout?","acceptedAnswer":{"@type":"Answer","text":"Fifteen percent, and 20% if the room is small or has a lot of obstacles. Every tile meeting a wall at 45\u00b0 is cut, and the triangular offcut usually cannot be used anywhere else."}},{"@type":"Question","name":"Do I need to seal grout?","acceptedAnswer":{"@type":"Answer","text":"Cementitious grout is porous and should be sealed in wet areas and on floors. Epoxy grout does not need sealing. Sealing is a separate product and is not included in these quantities."}},{"@type":"Question","name":"Should I buy tile by the box or loose?","acceptedAnswer":{"@type":"Answer","text":"By the box, and all in one order with matching batch codes. Enter your tiles-per-box figure above and the calculator will convert the count for you."}}]}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="1.5" y="7" width="21" height="10" rx="1.5" fill="#e2611a" stroke="#14171a" stroke-width="1.6"/><path d="M6 7v3.2M9 7v4.6M12 7v3.2M15 7v4.6M18 7v3.2" stroke="#14171a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <span>Measure <b>Twice</b></span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="../index.html#calculators" aria-current="page">Calculators</a>
+        <a href="../guides/index.html">Guides</a>
+        <a href="../about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page">
+      <div class="wrap page-layout">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <ol>
+              <li><a href="../index.html">Calculators</a></li>
+              <li>Tile &amp; grout</li>
+            </ol>
+          </nav>
+
+          <h1>Tile &amp; grout calculator</h1>
+
+          <div data-calc="tile"></div>
+
+          <div class="ad ad--leaderboard" data-slot="calc-below"></div>
+
+          <div class="prose">
+        <p>The grout joint is not a rounding error. A 12&nbsp;&times;&nbsp;24 tile with a quarter-inch joint occupies noticeably more wall than the same tile laid tight, and over a large area that is the difference between ordering enough and coming up a box short.</p>
+        <p>This calculator works from the repeating cell &mdash; one tile plus one joint &mdash; rather than the bare tile face, and derives grout from the volume that cell leaves empty rather than from a generic coverage chart.</p>
+        <h2>How the maths works</h2>
+<p>Each tile really occupies a rectangle one joint wider and one joint taller than itself, because it shares half a joint with each neighbour:</p>
+<div class="formula">cell area = (tile width + joint) &times; (tile height + joint)<br>
+tiles = area &divide; cell area, &times; (1 + waste %)</div>
+<p>For a 100&nbsp;ft&sup2; floor in 12&nbsp;&times;&nbsp;24 in tile with a 1/8&nbsp;in joint: the cell is 12.125 &times; 24.125 in = 2.03&nbsp;ft&sup2;, so you need 49.2 tiles bare, and 55 with a 10% allowance.</p>
+<p>Grout comes from the same cell. Whatever the cell is that the tile does not cover, to the depth of the tile, is grout:</p>
+<div class="formula">grout fraction = (cell area &minus; tile face area) &divide; cell area<br>
+grout volume = area &times; grout fraction &times; tile thickness</div>
+<p>This is why large-format tile uses so little grout and mosaic uses so much. It has nothing to do with the floor area and everything to do with how much joint per square foot the tile size creates.</p>
+        <h2>Choosing the joint width</h2>
+<table>
+  <thead><tr><th>Tile type</th><th class="num">Typical joint</th></tr></thead>
+  <tbody>
+    <tr><td>Rectified porcelain, large format</td><td class="num">1/16&ndash;1/8 in (2&ndash;3 mm)</td></tr>
+    <tr><td>Standard pressed ceramic</td><td class="num">1/8&ndash;3/16 in (3&ndash;5 mm)</td></tr>
+    <tr><td>Handmade or rustic tile</td><td class="num">1/4 in (6 mm) or more</td></tr>
+    <tr><td>Natural stone</td><td class="num">1/16&ndash;1/8 in (2&ndash;3 mm)</td></tr>
+    <tr><td>Mosaic sheets</td><td class="num">Set by the sheet</td></tr>
+  </tbody>
+</table>
+<p>Only rectified tile &mdash; mechanically cut to an exact size after firing &mdash; can hold a very tight joint. Pressed tile varies enough in size that a 1/16&nbsp;in joint leaves you no room to absorb the difference, and the lines will wander visibly.</p>
+        <h2>Waste, and why it is higher than you think</h2>
+<p>Ten percent covers a straightforward floor in a rectangular room. Increase it for:</p>
+<ul>
+  <li><strong>Diagonal layouts</strong> &mdash; 15%, because every perimeter tile is cut on an angle and the offcut is rarely reusable.</li>
+  <li><strong>Small rooms with many cuts</strong> &mdash; a bathroom floor around a toilet, vanity and door threshold can hit 20% on a tiny area.</li>
+  <li><strong>Large-format tile</strong> &mdash; a bad cut wastes four square feet, not one.</li>
+  <li><strong>Patterned tile with a directional design</strong> &mdash; you cannot rotate an offcut to use it.</li>
+</ul>
+<p>And keep a box back. Tile is discontinued faster than almost any other finish material.</p>
+        <h2>About the grout figure</h2>
+<p>The grout estimate is geometrically correct for the numbers you enter, but real jobs use more. Tile backs are not flat, joints end up slightly wider than planned in places, and some grout is always lost to mixing and cleanup. Treat the number as a floor rather than a target, and buy at least one bag over.</p>
+<p>Grout weight assumes a cementitious product at roughly 1,600&nbsp;kg/m&sup3;. Epoxy grout is denser and is sold by the kit rather than by weight, so use the kit coverage chart for that instead.</p>
+<p>Thinset is not calculated here at all, because coverage depends almost entirely on trowel notch size &mdash; a 1/4&nbsp;in square notch and a 1/2&nbsp;in notch differ by more than double. Read the bag.</p>
+
+        <h2>Questions people ask</h2>
+      <details class="faq">
+        <summary>How many 12 × 24 tiles are in 100 square feet?</summary>
+        <div><p>With a 1/8 in grout joint, each tile occupies 2.03 ft², so 100 ft² needs 49.2 tiles — call it 50 bare, or 55 with a 10% waste allowance. Without any joint the bare figure would be 50, which shows how little difference a thin joint makes on a large tile.</p></div>
+      </details>
+      <details class="faq">
+        <summary>How much grout do I need?</summary>
+        <div><p>It depends far more on tile size than floor size. A 100 ft² floor in 12 × 24 tile with 1/8 in joints needs only about 5 lb of grout; the same floor in 4 × 4 mosaic needs several times that, because there is vastly more joint per square foot.</p></div>
+      </details>
+      <details class="faq">
+        <summary>What waste percentage for a diagonal tile layout?</summary>
+        <div><p>Fifteen percent, and 20% if the room is small or has a lot of obstacles. Every tile meeting a wall at 45° is cut, and the triangular offcut usually cannot be used anywhere else.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Do I need to seal grout?</summary>
+        <div><p>Cementitious grout is porous and should be sealed in wet areas and on floors. Epoxy grout does not need sealing. Sealing is a separate product and is not included in these quantities.</p></div>
+      </details>
+      <details class="faq">
+        <summary>Should I buy tile by the box or loose?</summary>
+        <div><p>By the box, and all in one order with matching batch codes. Enter your tiles-per-box figure above and the calculator will convert the count for you.</p></div>
+      </details>
+          </div>
+
+          <div class="callout">
+            <strong>Check before you order</strong>
+            <p>These figures are for planning. Measure the job yourself, confirm quantities
+            against the product data sheet, and check anything structural against your local
+            building code before you buy materials or start building.</p>
+          </div>
+        </div>
+
+      <aside class="rail">
+        <div class="rail-card">
+          <h3>Related calculators</h3>
+          <ul>
+          <li><a href="../calculators/flooring.html">Flooring calculator</a></li>
+          <li><a href="../calculators/drywall.html">Drywall calculator</a></li>
+          <li><a href="../calculators/paint.html">Paint calculator</a></li>
+            <li><a href="../index.html#calculators">All calculators</a></li>
+          </ul>
+        </div>
+        <div class="ad ad--rail" data-slot="calc-rail" data-format="rectangle"></div>
+      </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h4>Measure Twice</h4>
+          <p>Material and cost calculators for trades and DIY. Free, no sign-up, works on a phone with one bar of signal.</p>
+        </div>
+        <div>
+          <h4>Popular calculators</h4>
+          <ul>
+          <li><a href="../calculators/concrete.html">Concrete</a></li>
+          <li><a href="../calculators/paint.html">Paint</a></li>
+          <li><a href="../calculators/flooring.html">Flooring</a></li>
+          <li><a href="../calculators/tile.html">Tile &amp; grout</a></li>
+          <li><a href="../calculators/drywall.html">Drywall</a></li>
+            <li><a href="../index.html#calculators">See all</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Site</h4>
+          <ul>
+            <li><a href="../guides/index.html">Guides</a></li>
+            <li><a href="../about.html">About &amp; method</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="../privacy.html">Privacy &amp; cookies</a></li>
+            <li><a href="../terms.html">Terms of use</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-note">
+        &copy; <span id="year">2026</span> Measure Twice. Estimates are for planning only —
+        always confirm quantities against your own measurements, the product data sheet
+        and your local building code before ordering or building.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,203 +1,245 @@
-# Brightburst Arcade
+# Measure Twice
 
-A colourful, kid-safe browser arcade — five original games, a membership tier, and
-reserved ad space. Plain HTML, CSS and JavaScript: **no build step, no framework,
-no dependencies**. The repository *is* the website.
+Material and cost calculators for trades and DIY. Eight working calculators, two
+guides, and the pages AdSense expects to see — as plain HTML, CSS and JavaScript
+with **no build step, no framework and no dependencies**. The repository is the
+website.
 
 ```
-index.html          the arcade hub
-games/*.html        one page per game
-parents.html        safety info, FAQ, membership plans
-privacy.html        privacy policy (template — see "Before you launch")
-terms.html          terms of use (template — see "Before you launch")
-assets/css/         main.css (design system) + game.css (game shell)
-assets/js/          arcade.js (engine), membership.js, ads.js, site.js, more-games.js
-assets/js/games/    one file per game
-tests/smoke.js      end-to-end browser test
-netlify.toml        hosting config + security headers
+index.html              hub listing every calculator
+calculators/*.html      8 calculator pages, each with its own guide content
+guides/*.html           cross-cutting articles + index
+about.html contact.html privacy.html terms.html 404.html
+assets/css/main.css     design system
+assets/js/units.js      conversion, feet-and-inches parsing, formatting
+assets/js/calc.js       form rendering, validation, unit switching, share URLs
+assets/js/calcs/*.js    one pure compute() per calculator
+assets/js/ads.js        AdSense wiring (inert until you add your publisher ID)
+tests/math.test.js      124 arithmetic checks, no browser needed
+tests/browser.test.js   end-to-end: every page, every calculator
+ads.txt                 authorised sellers — needs your publisher ID
 ```
+
+---
+
+## Why this niche
+
+Picked from research, not vibes. Three findings drove it:
+
+**1. High-RPM niches are unwinnable for a new site.** Insurance, legal and finance
+genuinely pay the most — [reported RPMs of $15–80](https://adstimate.com/blog/highest-paying-adsense-niches.html)
+against [legal search CPC of $6.75 vs. a $2.96 cross-industry average](https://www.wordstream.com/blog/2026-google-ads-benchmarks).
+They are also YMYL categories where Google applies its harshest quality bar, and
+they are owned by billion-dollar incumbents. High RPM times zero traffic is zero.
+
+**2. Informational content is being actively displaced.** Seer Interactive's
+analysis of 5.47M queries found AI Overviews cut organic CTR by
+[61% on informational queries](https://neilpatel.com/marketing-stats/ai-overview-expansion-organic-ctr-decline/);
+question-format queries trigger an AI Overview
+[85.9% of the time](https://www.omnibound.ai/blog/google-ai-overviews-statistics).
+Transactional and interactive content is comparatively protected. A plain blog is
+close to the worst thing to launch right now.
+
+**3. Mass-produced content gets deindexed.** Google has issued manual actions for
+"scaled content abuse" [since June 2025](https://www.digitalapplied.com/blog/scaled-content-abuse-google-march-update-ai-pages-decimated) —
+one monitored set saw 837 of 49,345 sites removed from the index outright.
+
+**But pure tool sites get rejected by AdSense** as
+[thin content](https://dev.to/bdubs/i-applied-for-adsense-and-got-rejected-for-low-value-content-hog) —
+"an input box and a wall of ads" does not pass review.
+
+So: **interactive tools plus substantial written content per tool, in a
+high-CPC but non-YMYL vertical.** Home services runs at **$5.10 CPC** — second
+only to legal among the industries checked, nearly double the cross-industry
+average — and is not YMYL, so the quality bar is far more forgiving than finance.
+Advertisers are Home Depot, Lowe's, Angi, Thumbtack and contractor lead-gen, all
+bidding on someone who is mid-project.
+
+Every calculator page carries 550–750 words of original, specific guidance
+alongside the tool. That is what makes it approvable and what makes it rank.
+
+---
 
 ## Run it locally
 
 ```bash
-python3 -m http.server 8899
-# open http://localhost:8899
+python3 -m http.server 8899   # then open http://localhost:8899
 ```
-
-Any static server works. Opening `index.html` straight off disk mostly works too,
-but membership redirects behave better over HTTP.
 
 ## Deploy
 
-No build command, publish directory is the repo root.
+No build command; publish directory is the repo root.
 
-| Host | What to do |
+| Host | Notes |
 | --- | --- |
-| **Netlify** | Connect the repo. `netlify.toml` sets headers and the 404 page for you. |
+| **Netlify** | Connect the repo. `netlify.toml` sets headers and the 404 page. |
 | **Cloudflare Pages** | Connect the repo, leave the build command empty. |
 | **Vercel** | Import as a static project. |
-| **GitHub Pages** | Settings → Pages → deploy from branch. Security headers aren't configurable here. |
+| **GitHub Pages** | Works, but no custom headers. |
 
-Costs nothing to host at small scale on any of them.
+Use a real custom domain, not a `*.netlify.app` subdomain — AdSense will not
+approve a site on a free hosting subdomain.
 
-## The five games
+---
 
-| Game | Skill | Tier |
-| --- | --- | --- |
-| Counting Carnival | Mental arithmetic, difficulty auto-scales | Free |
-| Memory Match | Working memory | Free |
-| Star Catcher | Reaction time, tracking | Free |
-| Typing Tornado | Touch typing | Member |
-| Color Splash | Free drawing, saves a PNG | Member |
+## Turning on AdSense
 
-## How the money parts are wired
+Everything is wired; it needs your IDs.
 
-### Membership
+1. **Add the site** in AdSense → Sites, and complete verification.
+2. **Create ad units** — one per slot name. The slots in the HTML are
+   `home-top`, `home-mid`, `calc-below`, `calc-rail` and `article-mid`.
+3. **Fill in `assets/js/ads.js`**: set `publisherId` to your
+   `ca-pub-…` value and paste each unit ID into `CONFIG.slots`.
+   Until `publisherId` is set, nothing is requested from Google and every slot
+   renders a sized placeholder.
+4. **Fix `ads.txt`** — replace `pub-0000000000000000` with your publisher ID.
+   AdSense will keep warning you until this is right, and some buyers will not
+   bid without it.
+5. **EEA / UK / Swiss traffic needs a Google-certified CMP.** This is not
+   optional and it is not a nice-to-have: serving ads to those users without a
+   certified consent banner breaches the AdSense terms and can suspend the
+   account. Google's own "Privacy & messaging" tool inside AdSense is certified
+   and is the easiest route.
+6. **Update `privacy.html`** to match what you actually enabled. The AdSense
+   cookie disclosure is already drafted there; fill in the bracketed fields.
 
-`assets/js/membership.js` holds a single boolean in `localStorage`. Today the
-plan buttons on `parents.html` call `Membership.activateDemo()`, which flips that
-flag so you can see the member experience — **no card is charged**.
+Two placement rules worth keeping: never put a unit where a mis-tap becomes a
+click (the slots here sit below the results and in the sidebar, never beside the
+calculator's buttons), and keep the reserved slot heights — unreserved ad space
+causes layout shift, which costs you both ranking and revenue.
 
-To turn on real payments:
+## Before you apply
 
-1. Create the products in **Stripe** (or Paddle, Lemon Squeezy — Paddle and Lemon
-   Squeezy act as merchant of record and handle sales tax/VAT for you, which is
-   usually worth it for a small subscription business).
-2. Point the plan buttons at your hosted checkout link instead of
-   `activateDemo()`. Keep the parent gate in front of it.
-3. **Verify entitlement on a server.** A `localStorage` boolean is trivially
-   editable — fine as a convenience flag, useless as a paywall. If you only ever
-   gate two game scripts, accept that a determined adult can unlock them; if the
-   membership grows into something you need to protect, put the member game files
-   behind a signed URL or an authenticated endpoint and check the subscription
-   server-side.
-4. Update `privacy.html` and `terms.html` to name your payment provider and state
-   your refund policy.
+Review generally wants a site that looks like a going concern:
 
-### Advertising
+- [ ] Real custom domain, live and indexed
+- [ ] `about.html` rewritten with a **real person or company** and genuine
+      background — placeholder text here is a common rejection reason
+- [ ] `contact.html` pointing at a monitored address
+- [ ] Privacy and terms completed, bracketed fields filled
+- [ ] `YOUR-DOMAIN.example` replaced in `robots.txt`, `sitemap.xml`,
+      `contact.html` and `BASE_URL` in the page generator
+- [ ] Sitemap submitted in Search Console, pages indexed
+- [ ] Some organic traffic arriving
 
-`assets/js/ads.js` ships with `network: null`, so **nothing is requested from any
-third party** and slots render inert placeholders. Slots live on the hub, below
-each game, and on the parents page. Members never see them (`body.is-member`
-hides them in CSS *and* the script skips filling them).
+Site age matters more than people expect —
+[3–6 months of history](https://dev.to/bdubs/i-applied-for-adsense-and-got-rejected-for-low-value-content-hog)
+is a common threshold, and plenty of sites are approved on the second or third
+attempt with no changes. Since you already have an AdSense account, you are
+adding a site rather than opening an account, which is a lower bar — but each
+new site is still reviewed.
 
-To connect a network, set `CONFIG.network` and fill in `fillFromNetwork()`. Before
-you do, read the next section — this is the part people get wrong.
+---
 
-## Before you launch: the legal bit
+## Realistic expectations
 
-**I am not a lawyer and this is not legal advice.** A site aimed at children is
-one of the most regulated things you can put on the internet, and the rules bite
-hardest on exactly the thing you want to do with it — make money. Budget for an
-hour with a lawyer who knows children's privacy before you switch on ads or
-payments. The short version of what you're walking into:
+Worth saying plainly: **this is an asset, not an income stream yet.** Seventeen
+pages on a new domain will earn approximately nothing for months. The site is
+the cheap part; traffic is the whole game.
 
-- **COPPA (US)** applies to sites directed at children under 13. Its definition of
-  "personal information" includes persistent identifiers — cookies, device IDs,
-  ad IDs. Serving *personalised* ads to a child-directed site without verifiable
-  parental consent is the classic violation, and the FTC has issued nine-figure
-  penalties for it. This build collects nothing and sets no cookies, which keeps
-  you clear by default; an ad network is the thing that would change that.
-- **Contextual, non-personalised ads only.** Most large networks support a
-  child-directed / "tag for child-directed treatment" mode which disables
-  behavioural targeting. It also pays noticeably less than personalised
-  inventory — plan your numbers around that, not around general web CPMs.
-- **Not every network will take you.** Some ad networks prohibit child-directed
-  traffic outright. There are kid-specific ad networks that specialise in
-  COPPA-compliant inventory; they usually want a minimum traffic level before
-  they'll talk to you.
-- **UK Age Appropriate Design Code / GDPR-K** apply if you have UK or EU visitors,
-  and add their own requirements around defaults, profiling and dark patterns.
-- **The parent gate is a speed bump, not a control.** It stops a five-year-old
-  wandering into checkout. It is not verifiable parental consent and won't
-  satisfy any regulator that asks for consent.
-- **Fill in the templates.** `privacy.html` and `terms.html` describe what this
-  code actually does today and have `[YOUR NAME]`, `[YOUR EMAIL]` and `[DATE]`
-  placeholders. Both must be updated the moment you add an ad network, analytics
-  or payments — a privacy policy that describes a site you no longer run is worse
-  than none.
+Home services CPC is strong, but AdSense pays you a share of *display* inventory,
+which is well below search CPC. At mid-tier RPMs, meaningful revenue needs tens
+of thousands of monthly sessions.
 
-## On "popular"
+What actually moves it, roughly in order:
 
-The code is the easy half. Nothing here generates traffic, and kids' content is a
-crowded space dominated by a handful of very large sites. What actually moves the
-needle, roughly in order:
+1. **Rank for `[material] calculator` queries.** They are transactional, they
+   convert to a page view rather than an AI Overview answer, and they recur
+   forever. This is the entire strategy.
+2. **Add calculators.** Each one is a new keyword cluster on the same domain
+   authority. Roofing, fence, paver, insulation, stair stringer, board-foot,
+   sod, retaining wall, and rebar are all high-volume and all fit the engine.
+3. **Earn links from the guides, not the tools.** Nobody links to a calculator
+   from an article; they link to a reference. The waste-factors guide is built
+   to be that reference.
+4. **Get listed where trades actually are** — contractor forums, subreddits,
+   trade-school resource pages. One instructor linking it recurs every year.
+5. **Keep Core Web Vitals green.** No framework and reserved ad slots is most of
+   that battle already won; do not undo it by bolting on heavy scripts.
 
-1. **Parents and teachers are your distribution, not kids.** Kids don't search;
-   the adult buying them screen time does. The parents page is written for that
-   reader on purpose.
-2. **Pick a narrower wedge than "kids' games".** "Free times-tables games for
-   Year 3" is a search you can plausibly rank for. "Kids games" is not.
-3. **Teacher communities compound.** One teacher putting the link on a class page
-   is worth more than a hundred social impressions, and it recurs every year.
-4. **Session length is the revenue lever.** Both ad impressions and membership
-   conversion follow time on site — which is why every game page ends with a
-   "More games" strip rather than a dead end.
-5. **Be realistic about ad income.** Non-personalised kids' inventory at modest
-   traffic is pocket money. The membership tier is the more plausible path to
-   real revenue, which is why the two best games sit behind it.
+Seasonality is real: concrete, mulch, gravel and decking all peak in spring.
 
-## Adding a game
+---
 
-1. Write `assets/js/games/your-game.js`:
+## Adding a calculator
+
+1. Create `assets/js/calcs/your-calc.js` following the existing UMD pattern.
+   `compute(values, ctx)` must be **pure** — no DOM — so the Node tests can
+   exercise it. Lengths arrive in **metres**; return display strings.
 
    ```js
-   Arcade.game({
-     id: 'your-game',            // storage key for the high score
-     name: 'Your Game',
-     emoji: '🎯',
-     howTo: ['One line per instruction.'],
-     start: function (api) {
-       // api.stage      – the DOM node to build into (already empty)
-       // api.setScore(n) – update the score in the HUD
-       // api.setStat(s)  – the second HUD chip (lives, timer, …)
-       // api.toast(t)    – a floating message; api.toast(t, true) for bad news
-       // api.sound       – .good() .bad() .blip() .win() .lose()
-       // api.confetti()  – celebrate
-       // api.end({score, title, message})
-       return function cleanup() { /* clear timers and listeners */ };
-     }
-   });
+   compute: function (v, ctx) {
+     // ctx.imperial, ctx.U (conversions), ctx.fmt (n / money / len / round)
+     return {
+       headline: { value: '…', unit: '…', label: '…' },
+       tables: [{ caption, cols, rows: [{ cells: [], sub }], foot }],
+       notes: ['…']
+     };
+   }
    ```
 
-   Returning a cleanup function is not optional — the shell calls it on replay and
-   on page exit, and a leaked `setInterval` or `requestAnimationFrame` will keep
-   running underneath the next round.
+   Field types: `length`, `smallLength`, `number`, `percent`, `money`, `select`,
+   `radio`. Any of `label`, `hint`, `unit`, `value` and `options` may be given as
+   `{ imperial, metric }`. Numeric fields can declare `convert: {toMetric,
+   toImperial}` so switching units converts what is typed instead of clearing it.
+   Select values should carry the SI figure directly (sheet area in m², bag yield
+   in m³) so `compute` needs no lookup table.
 
-2. Copy any file in `games/` as the page and point the last `<script>` at your new
-   file. For a member-only game use
-   `<script src="../assets/js/member-loader.js" data-member-game="your-game"></script>`.
-3. Add a card to `index.html` and an entry to the `GAMES` array in
-   `assets/js/more-games.js`.
-4. Add the URL to `sitemap.xml`.
+2. Add the page. For a single calculator it is usually quickest to copy an
+   existing page in `calculators/` and edit it — the HTML is committed and
+   hand-editable, and nothing at runtime depends on how it was produced.
+   Alternatively add your copy to `tools/content_*.py` and run
+   `python3 tools/build.py`, which regenerates every page (see `tools/README.md`
+   — note it overwrites hand edits).
+
+3. Add it to the home page grid, the related-calculator rails, and `sitemap.xml`.
+
+4. Write the maths test **first**, with a figure you worked out on paper.
 
 ## Testing
 
 ```bash
+node tests/math.test.js       # 124 arithmetic checks, no browser
+
 npm install --no-save playwright && npx playwright install chromium
-python3 -m http.server 8899          # in another terminal
-node tests/smoke.js
+python3 -m http.server 8899
+node tests/browser.test.js    # every page, every calculator, mobile, links
 ```
 
-Drives a real browser through every page and every game: the parent gate accepts
-only correct answers, member games are unreachable by direct URL, each game
-actually scores, ad slots vanish for members, and progress survives a reload.
-Exits non-zero on failure. `BASE_URL` tests a deployed copy; `CHROME_PATH` uses a
-browser you already have.
+`math.test.js` checks each calculator against hand-worked values and verifies
+imperial and metric agree for the same job. `browser.test.js` checks unique
+titles and canonicals, that every calculator produces a result from its defaults,
+feet-and-inches parsing, the unit toggle converting rather than clearing, input
+validation, shareable URLs, ad slots reserving space without calling Google, no
+horizontal overflow at 390px, and that no internal link is broken.
 
-## Notes
+Both exit non-zero on failure.
 
-- **Fonts** are the only external request (Google Fonts). To remove it entirely —
-  worth doing for a children's site, and required if you want a zero-third-party
-  claim — download Baloo 2 and Nunito, drop the `.woff2` files in `assets/fonts/`,
-  replace the `<link>` tags with an `@font-face` block, and drop the font hosts
-  from the CSP in `netlify.toml`.
-- **Content-Security-Policy** in `netlify.toml` is strict because the site has no
-  inline `<script>` anywhere. Connecting an ad network will require widening
-  `script-src` and `connect-src` to its hosts. Add those hosts by name; don't
-  reach for a wildcard.
-- **Placeholders to replace before launch:** `YOUR-DOMAIN.example` in `robots.txt`
-  and `sitemap.xml`, and the bracketed fields in `privacy.html` / `terms.html`.
-- **Everything a child does stays on their device.** Scores, stars, sound
-  preference and the member flag all live in one `localStorage` key,
-  `brightburst.v1`. There is no server, no account and no telemetry.
+---
+
+## Accuracy
+
+The geometry is exact and tested. Several figures are trade rules of thumb —
+joint compound coverage, screws per sheet, aggregate bulk density, grout density.
+Each is stated on the page that uses it, with the assumption shown, so a reader
+can substitute their supplier's number. If you change one, update the guide text
+and the test in the same commit.
+
+Do not let the calculators drift into structural advice. Joist spans, footing
+depths and load-bearing thickness are code items, and the pages deliberately
+point at the local building authority rather than answering.
+
+## Placeholders to replace
+
+Set `BASE_URL` in `tools/build.py` to your real domain and run
+`python3 tools/build.py` — that fixes every canonical, `og:url`, the sitemap and
+robots.txt in one go. Then by hand: `pub-0000000000000000` in `ads.txt`,
+`publisherId` in `assets/js/ads.js`, the `hello@YOUR-DOMAIN.example` address in
+`contact.html`, and the `[DATE]` / `[YOUR NAME]` / `[YOUR EMAIL]` fields in
+`about.html`, `contact.html`, `privacy.html` and `terms.html`.
+
+## Also in this repo
+
+`brightburst-arcade/` — an earlier kid-safe games site, self-contained and
+deployable on its own. See its own README.

@@ -1,5 +1,5 @@
-# Netlify config. Drop this repo on Netlify (or Cloudflare Pages / Vercel /
-# GitHub Pages) — there is no build step, the site is the repo.
+# Static site — no build step. Works the same on Cloudflare Pages, Vercel or
+# GitHub Pages; only the headers below are Netlify-specific syntax.
 
 [build]
   publish = "."
@@ -10,17 +10,23 @@
   [headers.values]
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
-    Referrer-Policy = "no-referrer"
-    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
-    # No inline <script> anywhere in this site, so script-src stays strict.
-    # If you connect an ad network you will have to widen script-src and
-    # connect-src to its hosts — do that deliberately, not by adding wildcards.
-    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
 
 [[headers]]
   for = "/assets/*"
   [headers.values]
     Cache-Control = "public, max-age=604800"
+
+# A Content-Security-Policy is deliberately NOT set here.
+#
+# The site's own code needs nothing beyond 'self' — there is no inline script
+# anywhere. But AdSense injects scripts, frames and images from a long and
+# changing list of Google and ad-partner hosts, and a CSP that is even slightly
+# too tight silently kills your fill rate, which is very hard to notice.
+#
+# If you want one, add it AFTER ads are live and verified, start from Google's
+# published list of AdSense domains, and watch your fill rate for a week.
 
 [[redirects]]
   from = "/*"
