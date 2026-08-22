@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Typing Tornado — Brightburst Arcade</title>
+<meta name="description" content="Type the falling words before they land. Real touch-typing practice for ages 6 to 10.">
+<meta name="theme-color" content="#ffc93c">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/main.css">
+<link rel="stylesheet" href="../assets/css/game.css">
+</head>
+<body>
+<a class="skip-link" href="#stage">Skip to the game</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">
+      <span class="brand-mark" aria-hidden="true">🌈</span>
+      Brightburst Arcade
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="../index.html">Games</a>
+      <a href="../parents.html">For grown-ups</a>
+      <a href="../privacy.html">Privacy</a>
+    </nav>
+    <span class="member-chip">✨ Member</span>
+  </div>
+</header>
+
+<main class="game-page">
+  <div class="wrap">
+    <h1 class="sr-only">Typing Tornado</h1>
+
+    <div class="game-frame">
+      <div class="game-hud">
+        <a class="hud-back" href="../index.html">← Arcade</a>
+        <div class="hud-stats">
+          <span class="hud-stat" id="hud-score">⭐ 0</span>
+          <span class="hud-stat" id="hud-extra" hidden></span>
+        </div>
+        <button class="hud-btn" id="sound-toggle" type="button" aria-label="Turn sound off">🔊</button>
+      </div>
+      <div class="game-stage" id="stage"></div>
+      <div class="game-overlay" id="overlay" hidden></div>
+    </div>
+
+    <div class="ad-slot" data-slot="game-below" data-size="728×90"></div>
+
+    <section class="section" style="padding-top:0">
+      <div class="section-head">
+        <h2>More games</h2>
+      </div>
+      <ul class="game-grid" id="more-games"></ul>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="small">Scores stay in this browser. Nothing about your play is sent anywhere.</p>
+    <p class="footer-note">&copy; <span id="year">2026</span> Brightburst Arcade ·
+      <a href="../parents.html">Grown-ups</a> ·
+      <a href="../privacy.html">Privacy</a> ·
+      <a href="../terms.html">Terms</a></p>
+  </div>
+</footer>
+
+<script src="../assets/js/arcade.js"></script>
+<script src="../assets/js/membership.js"></script>
+<script src="../assets/js/ads.js"></script>
+<script src="../assets/js/site.js"></script>
+<script src="../assets/js/more-games.js" data-current="typing-tornado"></script>
+<script src="../assets/js/member-loader.js" data-member-game="typing-tornado"></script>
+</body>
+</html>

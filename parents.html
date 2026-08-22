@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Grown-Ups — Brightburst Arcade</title>
+<meta name="description" content="How Brightburst Arcade keeps kids safe, what we collect (almost nothing), and how membership works.">
+<meta name="theme-color" content="#ffc93c">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">🌈</span>
+      Brightburst Arcade
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html">Games</a>
+      <a href="parents.html" aria-current="page">For grown-ups</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+    <span class="member-chip">✨ Member</span>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>For grown-ups</h1>
+      <p class="lede">The short version: five games, no accounts for kids, no chat, no behavioural advertising, and everything a child does stays in their own browser.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="cols-2">
+        <div class="panel">
+          <h2>What we collect</h2>
+          <p>From a child: <strong>nothing</strong>. High scores and star totals are written to the browser's own local storage on your device. They never leave it, and clearing your browser data erases them.</p>
+          <p>There is no account for kids, no email capture, no chat, no user-uploaded content and no third-party analytics in the child-facing pages.</p>
+          <p class="small muted">Full detail in the <a href="privacy.html">privacy policy</a>.</p>
+        </div>
+        <div class="panel">
+          <h2>What kids can't do</h2>
+          <ul>
+            <li>Talk to anyone — there is no messaging of any kind.</li>
+            <li>Leave the site by accident — outbound and payment links sit behind a parent gate.</li>
+            <li>Spend money — checkout is only reachable through that gate.</li>
+            <li>See personalised ads — ad space is non-personalised only.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="join">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Membership</h2>
+        <p>The three free games stay free forever. Membership adds the rest, hides every ad slot, and pays for hosting.</p>
+      </div>
+
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <div class="plan__price">$0</div>
+          <ul>
+            <li>Counting Carnival, Memory Match, Star Catcher</li>
+            <li>Scores saved on the device</li>
+            <li class="no">Two member games locked</li>
+            <li class="no">Ad space shown</li>
+          </ul>
+          <a class="btn btn--block btn--ghost" href="index.html">Keep playing free</a>
+        </div>
+
+        <div class="plan plan--featured">
+          <h3>Monthly</h3>
+          <div class="plan__price">$4<small> / month</small></div>
+          <ul>
+            <li>All five games, including Typing Tornado and Color Splash</li>
+            <li>Every ad slot hidden</li>
+            <li>New games as they land</li>
+            <li>Cancel any time</li>
+          </ul>
+          <button class="btn btn--block btn--grape" type="button" data-action="join">Become a member</button>
+        </div>
+
+        <div class="plan">
+          <h3>Yearly</h3>
+          <div class="plan__price">$29<small> / year</small></div>
+          <ul>
+            <li>Everything in Monthly</li>
+            <li>Two months free versus paying monthly</li>
+            <li>One payment, no monthly reminders</li>
+          </ul>
+          <button class="btn btn--block btn--sky" type="button" data-action="join">Get a year</button>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:2rem">
+        <h3>⚠️ Payments are not connected yet</h3>
+        <p class="muted">These buttons currently flip a local &ldquo;member&rdquo; flag in this browser so you can see exactly what a member sees. No card is charged and nothing is sent anywhere. Wiring a real payment provider is a short job &mdash; see <code>README.md</code>, section <em>Turning on payments</em>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="panel">
+        <h2>This device</h2>
+        <p id="member-status" class="muted">Checking…</p>
+        <div class="hero-cta" style="justify-content:flex-start">
+          <button class="btn btn--ghost" type="button" data-action="cancel-membership">Turn off membership here</button>
+          <button class="btn btn--ghost" type="button" data-action="reset-progress">Erase saved scores</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="ad-slot" data-slot="parents-inline" data-size="728×90"></div>
+  </div>
+
+  <section class="section">
+    <div class="wrap prose">
+      <h2>Questions grown-ups ask</h2>
+
+      <h3>What ages is this for?</h3>
+      <p>Roughly 4&ndash;10. Counting Carnival scales its own difficulty as a child gets answers right, so it stays usable across that whole range.</p>
+
+      <h3>Does it work on a school Chromebook or an old tablet?</h3>
+      <p>Yes. The whole site is plain HTML, CSS and JavaScript with no frameworks and no build step. Once a page has loaded it will keep working without a connection.</p>
+
+      <h3>Is there any advertising?</h3>
+      <p>Ad space is reserved and clearly labelled, but no ad network is connected in this build &mdash; the slots show placeholders. If one is connected later it will be a child-directed, non-personalised network only, meaning no behavioural profiling and no retargeting. Members see no ad space at all.</p>
+
+      <h3>What is the parent gate?</h3>
+      <p>A multiplication question in front of payment and off-site links. It is a speed bump to keep a five-year-old from wandering into checkout, not a security control, and it is not used to protect anything sensitive.</p>
+
+      <h3>Can I use this in a classroom?</h3>
+      <p>Please do. Nothing needs installing and no child needs an account. If you want it on a school network, allowlisting the site's own domain and <code>fonts.googleapis.com</code> is enough.</p>
+
+      <h3>How do I delete what's been saved?</h3>
+      <p>Use <strong>Erase saved scores</strong> above, or clear site data in your browser. There is nothing stored on a server to delete.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Brightburst Arcade</h4>
+        <p class="small">Bright little games for small humans.</p>
+      </div>
+      <div>
+        <h4>Play</h4>
+        <ul class="small">
+          <li><a href="index.html">All games</a></li>
+          <li><a href="games/counting-carnival.html">Counting Carnival</a></li>
+          <li><a href="games/memory-match.html">Memory Match</a></li>
+          <li><a href="games/star-catcher.html">Star Catcher</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Grown-ups</h4>
+        <ul class="small">
+          <li><a href="parents.html#join">Membership</a></li>
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="terms.html">Terms of use</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-note">&copy; <span id="year">2026</span> Brightburst Arcade. No accounts, no chat, no behavioural advertising.</p>
+  </div>
+</footer>
+
+<script src="assets/js/arcade.js"></script>
+<script src="assets/js/membership.js"></script>
+<script src="assets/js/ads.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>

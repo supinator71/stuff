@@ -1,0 +1,28 @@
+# Netlify config. Drop this repo on Netlify (or Cloudflare Pages / Vercel /
+# GitHub Pages) — there is no build step, the site is the repo.
+
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "no-referrer"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    # No inline <script> anywhere in this site, so script-src stays strict.
+    # If you connect an ad network you will have to widen script-src and
+    # connect-src to its hosts — do that deliberately, not by adding wildcards.
+    Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
