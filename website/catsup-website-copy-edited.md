@@ -1,6 +1,6 @@
-# CatSup Consulting PLLC — Website Copy (Edited)
+# CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Editorial notes and open questions are collected at the end of this document. Items marked **[CONFIRM]** need a factual decision from the practice before publishing.
+Items marked **[CONFIRM]** still need a factual decision before publishing. Editorial notes and a change log are at the end.
 
 ---
 
@@ -46,17 +46,17 @@ Thoughtful, accessible outpatient telepsychiatry and mindful medication manageme
 - Badge: Accepting New Patients (Washington)
 - Name: Cathleen Bozek, MSN, PMHNP-BC
 - Title: Psychiatric-Mental Health Nurse Practitioner
-- Bio: Personalized psychiatric evaluations, lowest-effective-dose medication management, and supportive psychotherapy by secure telehealth across Washington.
-- Specialties: ADHD & Focus · Anxiety & Panic · Depression & Mood · PTSD & Trauma · Bipolar Spectrum · Sleep & Stress
-- Insurance: In-network with Premera, Regence, Aetna, Cigna, and Ambetter. HSA/FSA cards accepted. **[CONFIRM: see note on "BCBS" below]**
+- Bio: Personalized psychiatric evaluations, lowest-effective-dose medication management, and supportive psychotherapy for adults by secure telehealth across Washington.
+- Specialties: Depression & Mood · Anxiety & Panic · Bipolar Spectrum · PTSD & Trauma · Psychotic Disorders · Sleep & Stress · ADHD
+- Insurance: In-network with Premera, Regence, Aetna, Cigna, Ambetter, and other Blue Cross Blue Shield plans. HSA/FSA cards accepted.
 - Button: Book an Initial Evaluation on Headway
 
 **Accepted insurance plans:**
 - Premera Blue Cross
 - Regence BlueShield
+- Other Blue Cross Blue Shield plans (out-of-state and employer plans, via BlueCard) **[CONFIRM with Headway that BlueCard claims are covered under the contract]**
 - Aetna
 - Cigna / Evernorth
-- Blue Cross Blue Shield (out-of-state BlueCard plans) **[CONFIRM]**
 - Ambetter (Coordinated Care) Washington
 - HSA / FSA cards accepted
 - Self-pay and out-of-network options available
@@ -70,13 +70,13 @@ More than 15 years of mental health experience providing compassionate, trauma-i
 Button: Book on Headway
 
 *Supriya Kang, MD, FAPA — Consulting Psychiatrist*
-Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association. Dr. Kang's background includes behavioral health medical leadership, utilization management, and clinical quality assurance. Dr. Kang maintains an active clinical practice and serves as consulting psychiatrist to CatSup Consulting PLLC.
+Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association. Dr. Kang's background includes behavioral health medical leadership, utilization management, and clinical quality assurance. Dr. Kang maintains an active clinical practice and serves as consulting psychiatrist to CatSup Consulting PLLC, providing physician consultation to referring clinicians and organizations.
 *Dr. Kang does not see outpatients through this practice.*
 
 **Home bottom call to action:**
 - Badge: Accepting New Patients in Washington
 - Headline: Begin Your Care with Cathleen Bozek, PMHNP-BC
-- Subhead: Thoughtful, accessible outpatient telepsychiatry and evidence-based medication management across Washington State. Verify your insurance and book directly on Headway.
+- Subhead: Thoughtful, accessible outpatient telepsychiatry and evidence-based medication management for adults across Washington State. Verify your insurance and book directly on Headway.
 - Buttons: Book with Cat on Headway · View Psychology Today Profile
 
 ---
@@ -102,7 +102,7 @@ Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American
 **Professional biography:**
 Cathleen Bozek (Cat) is a board-certified Psychiatric-Mental Health Nurse Practitioner with more than 15 years of clinical experience across outpatient mental health, community clinics, and specialty settings. Raised in Bremerton, Washington, she earned her Master of Science in Nursing, magna cum laude, from Seattle University and has devoted her career to culturally humble, trauma-informed psychiatric care for Pacific Northwest communities.
 
-Cat's virtual practice serves adults and older adults throughout Washington State. She specializes in the diagnostic evaluation and medication management of ADHD, depression, generalized and social anxiety, bipolar spectrum conditions, PTSD, sleep disturbances, and the stress of major life transitions. **[CONFIRM age range: see note]**
+Cat's virtual practice serves adults and older adults throughout Washington State. She specializes in the diagnostic evaluation and medication management of depression, generalized and social anxiety, bipolar spectrum conditions, PTSD, psychotic disorders in clinically stable adults, sleep disturbances, the stress of major life transitions, and ADHD. **[CONFIRM with Cat: psychotic disorders wording and whether she wants it listed]**
 
 **Clinical philosophy:**
 - **Lowest effective dose.** Medication is a tool for restoring balance and quality of life, not a lifetime commitment. Cat prescribes judiciously, reassesses response at every stage of treatment, and looks for safe opportunities to simplify regimens or taper when appropriate.
@@ -115,7 +115,7 @@ Cat's virtual practice serves adults and older adults throughout Washington Stat
 - Care delivery: Fully virtual telepsychiatry across Washington State
 - Scheduling: Headway (real-time insurance verification and online booking)
 
-**Buttons:** Schedule on Headway · Psychology Today Profile
+**Buttons:** Schedule on Headway · View Psychology Today Profile
 
 ### Supriya Kang, MD, FAPA (Consulting Psychiatrist)
 
@@ -129,7 +129,7 @@ Cat's virtual practice serves adults and older adults throughout Washington Stat
 **Professional biography:**
 Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association (FAPA).
 
-With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC.
+With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC and to referring clinicians and organizations.
 
 **Practice notice:**
 Dr. Kang does not see outpatients through this practice. Outpatient telepsychiatry and medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -147,7 +147,7 @@ Dr. Kang does not see outpatients through this practice. Outpatient telepsychiat
 **Page header:**
 - Badge: Outpatient Care
 - Headline: Virtual Telepsychiatry Services
-- Description: Individualized psychiatric evaluations, evidence-based medication management, and supportive psychotherapy, delivered by secure video across Washington State.
+- Description: Individualized psychiatric evaluations, evidence-based medication management, and supportive psychotherapy for adults, delivered by secure video across Washington State.
 
 **Core services (Cathleen Bozek, PMHNP-BC):**
 
@@ -156,12 +156,28 @@ Dr. Kang does not see outpatients through this practice. Outpatient telepsychiat
 3. **Integrated Supportive Psychotherapy.** Collaborative therapeutic support woven into medication visits, helping you build practical coping skills and resilience.
 
 **Conditions treated:**
-- **ADHD & Focus Difficulties.** Structured diagnostic assessment and support for executive functioning.
-- **Anxiety & Panic.** Treatment for generalized anxiety, social anxiety, and panic disorder.
 - **Depression & Mood Disorders.** Restoring energy, motivation, and emotional balance with individualized treatment.
-- **PTSD & Complex Trauma.** Trauma-informed psychiatric care and symptom stabilization.
+- **Anxiety & Panic.** Treatment for generalized anxiety, social anxiety, and panic disorder.
 - **Bipolar Spectrum Disorders.** Careful mood stabilization with ongoing monitoring and adjustment.
+- **PTSD & Complex Trauma.** Trauma-informed psychiatric care and symptom stabilization.
+- **Psychotic Disorders.** Medication management for clinically stable adults with schizophrenia spectrum and related conditions, with coordination to higher levels of care when needed. **[CONFIRM with Cat]**
 - **Sleep & Stress.** Insomnia, circadian disruption, and chronic life stress.
+- **ADHD.** Structured diagnostic assessment and support for executive functioning.
+
+**Prescribing policy for controlled medications:**
+
+Controlled medications, including stimulants, benzodiazepines, and certain sleep medications, are prescribed only when clinically indicated, after a complete evaluation, and in compliance with federal and Washington State law. To keep prescribing safe and consistent, our practice:
+
+- Reviews the Washington Prescription Monitoring Program (PMP) before prescribing any controlled medication and at regular intervals during treatment.
+- Generally does not prescribe controlled medications at a first visit. New patients continuing a controlled medication started elsewhere should expect a request for prior treatment records before it is continued.
+- Diagnoses ADHD only after a structured assessment, which may include prior records, rating scales, and collateral history. Stimulants are not prescribed on request.
+- Favors evidence-based first-line treatments. For anxiety and insomnia, that usually means antidepressants and therapy-based approaches rather than long-term benzodiazepines or sedative-hypnotics. New long-term benzodiazepine prescriptions are generally not started, and existing ones are reviewed for a safe, gradual taper when appropriate.
+- Does not prescribe opioids, and does not co-prescribe benzodiazepines with opioids. **[CONFIRM: adjust if the practice ever prescribes buprenorphine]**
+- Asks that all controlled medications come from a single prescriber. Early refills and replacement of lost or stolen prescriptions are not provided.
+- Requires that you be physically located in Washington State during any visit in which a prescription is written.
+- Follows current federal telemedicine rules for controlled substances. Those rules can change; if an in-person evaluation becomes required for a medication, we will tell you in advance and help you plan.
+
+The decision to prescribe any medication rests with the treating clinician. **[CONFIRM: review as a practice policy with Cat before publishing]**
 
 **Scheduling callout:**
 Ready to schedule with Cathleen?
@@ -174,18 +190,19 @@ Buttons: Book on Headway · View Psychology Today Profile
 All scheduling and insurance intake run through Headway. Select "Schedule on Headway" to see Cathleen's real-time calendar, confirm your coverage, and book an initial evaluation in minutes.
 
 **Which insurance plans does Cathleen accept in Washington State?**
-Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, Aetna, Cigna / Evernorth, Blue Cross Blue Shield, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available. **[CONFIRM BCBS]**
+Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available.
 
 **What should I expect at my initial psychiatric evaluation?**
-Your initial evaluation is a comprehensive, nonjudgmental 60-minute video visit. **[CONFIRM length]** Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated.
+Your initial evaluation is a comprehensive, nonjudgmental **[XX]**-minute video visit. **[CONFIRM length with Cat]** Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated.
 
 **How do prescriptions work with telehealth?**
 Prescriptions are sent electronically to your preferred local or mail-order pharmacy in Washington State after your visit.
 
-**Do you prescribe controlled substances by telehealth?** **[OPTIONAL: add only if you want a public policy; wording depends on current DEA telemedicine rules and practice policy]**
+**Do you prescribe controlled medications such as stimulants or benzodiazepines?**
+Yes, when clinically indicated and after a complete evaluation. Controlled medications are generally not prescribed at a first visit, and ADHD is diagnosed only after a structured assessment. See our prescribing policy above for details.
 
 **What is Dr. Supriya Kang's role at CatSup Consulting?**
-Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice. Dr. Kang does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
+Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice and provides physician consultation to referring clinicians and organizations. Dr. Kang does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
 
 **What do I need for a telepsychiatry visit?**
 A private space, a stable internet connection, and a smartphone, tablet, or computer with a camera and microphone. Visits take place on Headway's secure, HIPAA-compliant video platform.
@@ -197,7 +214,7 @@ A private space, a stable internet connection, and a smartphone, tablet, or comp
 **Opening tagline:**
 Thoughtful psychiatric care should be evidence-based, collaborative, and understandable.
 
-CatSup Consulting provides virtual outpatient psychiatry for adults throughout Washington State. **[CONFIRM: original said "adolescents and adults"; see note]**
+CatSup Consulting provides virtual outpatient psychiatry for adults throughout Washington State.
 
 **Our mission and values:**
 Mental health care gets complicated quickly. Insurance is confusing. Medication lists grow. Appointments feel rushed. Patients are asked to understand clinical language that was never written for them.
@@ -215,11 +232,11 @@ We believe patients should understand what is being recommended, why, and what i
 3. **Clear access and scheduling.** Through Headway, patients can review participating insurance plans, estimated costs, and available appointment times before booking.
 4. **Whole-person care.** Psychiatric symptoms do not exist in isolation. Cathleen considers sleep, stress, physical health, daily routines, and relationships alongside medication management and supportive therapy.
 
-**Additional consultation:**
-CatSup Consulting also offers limited psychiatric consultation with Supriya Kang, MD, including selected record reviews, second opinions, and psychopharmacology consultation for medically complex patients. **[CONFIRM audience: patients, clinicians, or organizations? See note]**
+**Physician consultation for clinicians and organizations:**
+CatSup Consulting also offers psychiatric consultation from Supriya Kang, MD, FAPA, to referring clinicians, practices, and health care organizations. Services include record reviews, second opinions, and psychopharmacology consultation for medically complex cases. Direct consultation with individual patients is considered on a limited, case-by-case basis. To inquire, use the Physician Consultation option on our Contact page.
 
 **Connect with our practice:**
-Schedule a virtual psychiatric evaluation with Cathleen Bozek through Headway, or view her verified Psychology Today profile.
+Schedule a virtual psychiatric evaluation with Cathleen Bozek through Headway, or view her Verified by Psychology Today profile.
 Buttons: Book with Cathleen on Headway · View Psychology Today Profile
 
 ---
@@ -227,32 +244,32 @@ Buttons: Book with Cathleen on Headway · View Psychology Today Profile
 ## 6. Contact & Scheduling Hub
 
 **Card 1: Cathleen Bozek, PMHNP-BC (Outpatient Scheduling)**
-For psychiatric evaluations, ongoing medication management, and supportive psychotherapy across Washington State.
+For psychiatric evaluations, ongoing medication management, and supportive psychotherapy for adults across Washington State.
 - Book on Headway: verify insurance and schedule an initial evaluation.
-- View verified Psychology Today profile.
+- View Verified by Psychology Today profile.
 - Location: Bremerton / Kitsap County, WA (statewide telehealth).
 
 **Card 2: Practice & Scheduling Inquiries**
-Questions about telepsychiatry visits, accepted insurance, or clinical services with Cathleen Bozek? Send our practice a message.
+Questions about telepsychiatry visits, accepted insurance, or physician consultation? Send our practice a message.
 
 Dropdown categories:
 1. Appointment question (Cathleen Bozek, PMHNP-BC) → links to Headway
 2. Insurance coverage or billing question → links to Headway
-3. Clinical services inquiry → emails sup@catsupconsulting.com
+3. Physician consultation inquiry (clinicians and organizations) → emails sup@catsupconsulting.com
 4. General practice message → emails sup@catsupconsulting.com
 
-Form fields: Name · Email address · Message
+Form fields: Name · Email address · Organization (optional) · Message
 
 ---
 
 ## 7. Inquiry Modal
 
 **Header:** Have a question before booking?
-**Description:** Send our practice a message about telepsychiatry visits, accepted insurance, or clinical care with Cathleen Bozek.
+**Description:** Send our practice a message about telepsychiatry visits, accepted insurance, or physician consultation.
 
 Categories:
 1. Appointment question (Cathleen Bozek, PMHNP-BC)
-2. Clinical services inquiry
+2. Physician consultation inquiry (clinicians and organizations)
 3. General practice message
 
 Form fields: Name · Email · Phone (optional) · Message
@@ -272,27 +289,23 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 
 ---
 
-## Editorial Notes & Open Questions
+## Editorial Notes
 
-**Fixed silently (style and consistency):**
-- "Dr. Supriya Kang, MD" is redundant. Standardized to "Supriya Kang, MD, FAPA" on first mention and "Dr. Kang" thereafter.
-- "Psychiatric Mental Health Nurse Practitioner" hyphenated to "Psychiatric-Mental Health" per ANCC usage. "Board Certified" hyphenated as an adjective.
-- "Medical Licensing" changed to "Licensure" (an ARNP license is a nursing license, not a medical license).
-- "Direct Outpatient Telepsychiatry Care Anchor" replaced with "Primary outpatient telepsychiatry clinician."
-- "recovery blueprint" / "treatment blueprint" replaced with "treatment plan."
-- "Restore equilibrium" and similar marketing phrasing simplified. "Targeted relief" softened to "Treatment for," since relief cannot be promised.
-- "Non-judgmental" to "nonjudgmental"; "de-prescribe" to "taper"; typo "sychiatric" fixed.
-- Inquiry modal categories renumbered (original skipped 2).
-- "does not maintain an active general outpatient caseload through this website" simplified to "does not see outpatients through this practice."
-- Crisis notice rewritten in plain language and made consistent between modal and footer.
-- Nav labels shortened. Long labels wrap badly on mobile.
-- "Instant copay estimate ... verified in real time" trimmed to "copay estimate," since Headway provides an estimate, not a verified amount.
+### Resolved in Revision 2
+- **Adults only.** All age-range language now says adults (and "adults and older adults" in Cat's bio). Adolescents removed.
+- **Specialty order.** Depression, anxiety, bipolar, PTSD, psychotic disorders, sleep and stress, then ADHD, on every page. Psychotic disorders wording is flagged for Cat's sign-off.
+- **BCBS.** Kept as a separate line, relabeled "Other Blue Cross Blue Shield plans (via BlueCard)" and moved directly under Premera and Regence so the grouping is obvious.
+- **Controlled substances.** Policy section added to Services with a matching FAQ. Wording deliberately does not cite the current DEA extension, so it stays accurate if the rules change.
+- **Dr. Kang's consultation.** Reframed as physician consultation for referring clinicians and organizations, with direct patient consultation "limited, case-by-case." Contact dropdown and modal categories updated to match, and an optional Organization field added to the contact form. Liability coverage is intentionally not mentioned on the site.
+- **Psychology Today.** Every reference now uses "Verified by Psychology Today," which is the badge's official wording.
+- **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
 
-**Decisions needed before publishing:**
-1. **Age range is inconsistent.** Home says "adults," Team says "adults and seniors," About says "adolescents and adults." PMHNP-BC certification is lifespan, so adolescents are possible, but the site must say one thing. I defaulted to adults. If Cat sees adolescents, say so consistently and note any minimum age.
-2. **"Blue Cross Blue Shield" as a separate line.** Premera and Regence are both BCBS licensees, so a separate "BCBS" entry reads as redundant. If the intent is out-of-state BlueCard plans accepted through Headway, label it that way. Otherwise drop it.
-3. **60-minute initial evaluation.** Confirm this matches what Headway actually books.
-4. **Controlled substances.** ADHD is listed as a lead specialty. Patients will ask about stimulants by telehealth. Decide whether to state a policy. If so, the wording should track current DEA telemedicine rules and Washington requirements (PMP check, etc.).
-5. **Dr. Kang's consultation offering.** "Second opinions and psychopharmacology in medically complex patients" reads as direct patient care, which sits awkwardly next to "does not see outpatients." Clarify whether these consultations are for referring clinicians and organizations, or for patients on a case-by-case basis, and how they are requested (the email route, presumably).
-6. **"Psychology Today Verified."** Psychology Today's badge is "Verified by Psychology Today." Use that exact phrasing if you display the badge.
-7. **"ANCC Board Certified Care"** was changed to "ANCC Board-Certified Clinician." Certification applies to the person, not the care.
+### Still open
+1. **Initial evaluation length.** Placeholder "[XX]-minute" in the FAQ. Ask Cat.
+2. **Psychotic disorders.** Confirm Cat is comfortable listing it and with the "clinically stable adults" framing.
+3. **Controlled-substance policy.** Review each bullet as a real practice policy before it goes live. Two bullets are practice choices rather than legal requirements: "generally not at a first visit" and "new long-term benzodiazepines generally not started." Keep, soften, or remove as you see fit. The opioid line should be adjusted if buprenorphine is ever prescribed.
+4. **BlueCard.** Confirm with Headway that out-of-state BCBS claims are payable under Cat's contract before advertising it.
+
+### Regulatory basis for the controlled-substance policy (as of September 2026)
+- **Federal.** The DEA and HHS issued a fourth temporary extension of the COVID-era telemedicine flexibilities, effective January 1 through December 31, 2026. It allows DEA-registered practitioners to prescribe Schedule II-V medications by audio-video telemedicine without a prior in-person evaluation. The permanent special-registration rule is still unfinalized. Re-check this in Q4 2026 and update the policy if an in-person requirement takes effect.
+- **Washington.** The Health Care Authority requires a PMP check before prescribing controlled substances to Apple Health patients (WAC 182-530-1080). The Department of Health requires prescribers who write Schedule II-V prescriptions to be registered with the PMP, with mandatory queries at defined points for opioids. Checking the PMP before every controlled prescription, as the policy states, meets both and is standard of care.
