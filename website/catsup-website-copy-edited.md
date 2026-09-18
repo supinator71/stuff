@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 12 removes utilization review and health plans from Dr. Kang's consultation offering and states that consultation is private pay. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 13 removes "utilization management" from Dr. Kang's bio. Final. Editorial notes and a change log are at the end.
 
 ---
 
@@ -71,7 +71,7 @@ More than 15 years of mental health experience providing compassionate, trauma-i
 Button: Book on Headway
 
 *Supriya Kang, MD, FAPA — Consulting Psychiatrist*
-Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association. Dr. Kang's background includes behavioral health medical leadership, utilization management, and clinical quality assurance. Dr. Kang maintains an active clinical practice and serves as consulting psychiatrist to CatSup Consulting PLLC, providing physician consultation to referring clinicians and organizations.
+Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association. Dr. Kang's background includes behavioral health medical leadership and clinical quality assurance. Dr. Kang maintains an active clinical practice and serves as consulting psychiatrist to CatSup Consulting PLLC, providing physician consultation to referring clinicians and organizations.
 *Dr. Kang does not see outpatients through this practice.*
 
 **Home bottom call to action:**
@@ -130,7 +130,7 @@ Cathleen's virtual practice serves adults and older adults throughout Washington
 **Professional biography:**
 Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association (FAPA).
 
-With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC. Dr. Kang is available to clinicians, practices, and organizations for file and chart reviews, second opinions, and psychopharmacology consultation on a private-pay basis.
+With an extensive background in behavioral health medical leadership and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC. Dr. Kang is available to clinicians, practices, and organizations for file and chart reviews, second opinions, and psychopharmacology consultation on a private-pay basis.
 
 **Practice notice:**
 Dr. Kang does not see outpatients through this practice. Outpatient telepsychiatry and medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -295,6 +295,8 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 
 - **Headway handles all administration.** Scheduling, insurance verification, and billing are stated as Headway's responsibility everywhere they come up. The contact form and modal no longer offer an "appointment question" or "insurance question" category that reaches the practice; selecting that option redirects to Headway. The practice line (206) 829-6204 and the contact form are presented as the channel for engaging Dr. Kang: file and chart reviews, second opinions, and psychopharmacology consultation, aimed at clinicians, practices, and organizations, on a private-pay basis. "Utilization review" and "health plans" were removed from the offering because Dr. Kang holds a full-time behavioral health medical director role at a health plan; advertising UR services to other plans would be the clearest possible conflict with that role. The Psychology Today tracked number is not used anywhere on the site.
 - **Name.** "Cathleen" is used throughout the site copy; the nickname "Cat" no longer appears.
+
+- **Utilization management** removed from Dr. Kang's bio on the home and team pages. The site now contains no reference to UM or UR anywhere.
 
 ### Still open
 1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
