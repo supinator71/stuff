@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 8 replaces the prescribing-policy block with two FAQ entries, matching how comparable virtual practices handle it. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 8 replaces the prescribing-policy block with two FAQ entries, matching how comparable virtual practices handle it. Editorial notes and a change log are at the end.
 
 ---
 
