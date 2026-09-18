@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 13 removes "utilization management" from Dr. Kang's bio. Final. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 14 states in every description of Dr. Kang's role that consultation is private pay and not billed to insurance. Editorial notes and a change log are at the end.
 
 ---
 
@@ -72,7 +72,7 @@ Button: Book on Headway
 
 *Supriya Kang, MD, FAPA — Consulting Psychiatrist*
 Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association. Dr. Kang's background includes behavioral health medical leadership and clinical quality assurance. Dr. Kang maintains an active clinical practice and serves as consulting psychiatrist to CatSup Consulting PLLC, providing physician consultation to referring clinicians and organizations.
-*Dr. Kang does not see outpatients through this practice.*
+*Dr. Kang does not see outpatients through this practice and does not accept insurance.*
 
 **Home bottom call to action:**
 - Badge: Accepting New Patients in Washington
@@ -133,13 +133,14 @@ Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American
 With an extensive background in behavioral health medical leadership and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC. Dr. Kang is available to clinicians, practices, and organizations for file and chart reviews, second opinions, and psychopharmacology consultation on a private-pay basis.
 
 **Practice notice:**
-Dr. Kang does not see outpatients through this practice. Outpatient telepsychiatry and medication management are provided by Cathleen Bozek, PMHNP-BC.
+Dr. Kang does not see outpatients through this practice and does not accept insurance. Outpatient telepsychiatry and medication management are provided by Cathleen Bozek, PMHNP-BC.
 
 **Credentials & details:**
 - Medical degree: Doctor of Medicine (MD)
 - Board certification: Diplomate, ABPN (Psychiatry)
 - Professional honor: Fellow, American Psychiatric Association (FAPA)
 - Clinical role: Consulting Psychiatrist
+- Payment: Private pay only; insurance is not accepted for consultation services
 
 ---
 
@@ -190,7 +191,7 @@ Sometimes, when clinically indicated and after a complete evaluation. Controlled
 Not for long-term use. First-line treatment for anxiety and insomnia is usually an antidepressant together with therapy-based approaches, which work well and are safe over time. Benzodiazepines are used rarely and with clear limits. If you are already taking one, Cathleen can work with you on a safe, gradual taper when appropriate.
 
 **What is Dr. Supriya Kang's role at CatSup Consulting?**
-Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice and provides physician consultation to referring clinicians and organizations. Dr. Kang does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
+Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice and provides physician consultation to referring clinicians and organizations on a private-pay basis. Dr. Kang does not accept insurance and does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
 
 **What do I need for a telepsychiatry visit?**
 A private space, a stable internet connection, and a smartphone, tablet, or computer with a camera and microphone. Visits take place on Headway's secure, HIPAA-compliant video platform.
