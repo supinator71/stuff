@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 8 replaces the prescribing-policy block with two FAQ entries, matching how comparable virtual practices handle it. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 9 adds the practice phone number to the Contact page, inquiry modal, and footer, with booking still routed to Headway. Editorial notes and a change log are at the end.
 
 ---
 
@@ -172,7 +172,7 @@ Buttons: Book on Headway · View Psychology Today Profile
 **Frequently Asked Questions:**
 
 **How do I schedule an appointment with Cathleen Bozek?**
-All scheduling and insurance intake run through Headway. Select "Schedule on Headway" to see Cathleen's real-time calendar, confirm your coverage, and book an initial evaluation in minutes.
+All scheduling and insurance intake run through Headway. Select "Schedule on Headway" to see Cathleen's real-time calendar, confirm your coverage, and book an initial evaluation in minutes. Appointments cannot be booked by phone or email.
 
 **Which insurance plans does Cathleen accept in Washington State?**
 Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, Providence Health Plan, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available.
@@ -238,7 +238,7 @@ For psychiatric evaluations, ongoing medication management, and supportive psych
 - Location: Bremerton / Kitsap County, WA (statewide telehealth).
 
 **Card 2: Practice & Scheduling Inquiries**
-Questions about telepsychiatry visits, accepted insurance, or physician consultation? Send our practice a message.
+Questions about telepsychiatry visits, accepted insurance, or physician consultation? Send our practice a message or call (206) 829-6204. Appointments with Cathleen are booked on Headway, not by phone.
 
 Dropdown categories:
 1. Appointment question (Cathleen Bozek, PMHNP-BC) → links to Headway
@@ -262,6 +262,8 @@ Categories:
 
 Form fields: Name · Email · Phone (optional) · Message
 
+**Phone:** (206) 829-6204 for practice questions. Appointments are booked on Headway.
+
 **Notice:** Please do not submit urgent or emergency medical information through this form. If you are in crisis, call or text 988 or go to the nearest emergency room.
 
 ---
@@ -273,6 +275,7 @@ CatSup Consulting PLLC is an outpatient practice and does not provide emergency 
 
 **Footer:**
 © 2026 CatSup Consulting PLLC. All rights reserved.
+(206) 829-6204 · sup@catsupconsulting.com · Appointments booked on Headway
 A Washington State Professional Limited Liability Company · HIPAA-compliant telehealth
 
 ---
@@ -287,6 +290,8 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 - **Dr. Kang's consultation.** Reframed as physician consultation for referring clinicians and organizations, with direct patient consultation "limited, case-by-case." Contact dropdown and modal categories updated to match, and an optional Organization field added to the contact form. Liability coverage is intentionally not mentioned on the site.
 - **Psychology Today.** Every reference now uses "Verified by Psychology Today," which is the badge's official wording.
 - **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
+
+- **Phone number.** The practice line (206) 829-6204 now appears on the Contact page, in the inquiry modal, and in the footer, each time paired with a statement that appointments are booked on Headway. The Psychology Today tracked number is not used anywhere on the site.
 
 ### Still open
 1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
