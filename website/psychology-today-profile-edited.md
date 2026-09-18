@@ -7,13 +7,13 @@ Fields below follow Psychology Today's editor. Only the fields worth changing ar
 ## Personal statement (three fields, roughly 500 characters each)
 
 **Field 1**
-I'm Cat, a board-certified psychiatric nurse practitioner with more than 15 years in mental health care. I provide psychiatric evaluations, medication management, and supportive psychotherapy for adults across Washington State by secure video. My practice is built on collaboration and informed decision-making: you should understand what is being recommended, why, and what improvement should look like.
+I'm Cathleen, a board-certified psychiatric nurse practitioner with more than 15 years in mental health care. I provide psychiatric evaluations, medication management, and supportive psychotherapy for adults across Washington State by secure video. My practice is built on collaboration and informed decision-making: you should understand what is being recommended, why, and what improvement should look like.
 
 **Field 2**
 I prescribe judiciously, aiming for the lowest effective dose and reassessing regularly, and I look for safe opportunities to simplify or taper when the time is right. I pay attention to sleep, stress, physical health, and daily routines alongside medication, and I welcome LGBTQ+ and gender-expansive patients and neurodivergent adults. Care is trauma-informed and culturally humble.
 
 **Field 3**
-I'm in-network with Premera, Regence, Aetna, Cigna, Providence, Ambetter, and many other Blue Cross Blue Shield plans. Scheduling and insurance verification run through Headway, where you can see live openings and a copay estimate before you book. Initial evaluations are 60 minutes. I'm accepting new adult patients in Washington.
+I'm in-network with Premera, Regence, Aetna, Cigna, Providence, Ambetter, and many other Blue Cross Blue Shield plans. Scheduling, insurance verification, and billing all run through Headway, where you can see live openings and a copay estimate before you book. Initial evaluations are 60 minutes. I'm accepting new adult patients in Washington.
 
 ---
 
@@ -102,6 +102,6 @@ I'm in-network with Premera, Regence, Aetna, Cigna, Providence, Ambetter, and ma
 2. **The phone number.** Resolved. (360) 795-5057 is Psychology Today's tracked forwarding number and rings through to the practice phone. Two implications. First, never copy this number onto the website or anywhere else; it belongs to Psychology Today, they can reassign it if the listing lapses, and calls through it are counted as Psychology Today leads. Use the practice's real number everywhere else. Second, the website currently lists no phone at all, so a patient who finds the site but not the profile has no way to call. Decide whether to add the practice's real number to the Contact page.
 3. **"Email Me" goes to a Psychology Today contact form** that forwards to whatever email is on the account. Confirm someone is watching that inbox, or point it at the practice address.
 4. **Expertise list cleanup.** The current list reads like every box was checked. "Cults," "Cancer," and "Peer Relationships" have no connection to the site or Headway. "Addiction" and "Dual Diagnosis" advertise substance use treatment, which the practice has decided not to market and which MOUD is out of scope for. "Self-Harming" and "Personality Disorders" signal a level of acuity a virtual medication practice generally does not want to lead with. The recommended list matches Headway and the website.
-5. **Top specialties.** Current order is Trauma and PTSD, Medication Management, Mood Disorders. Recommended order is Medication Management, Depression, Anxiety, which matches the website and puts the highest-volume searches first. Trauma and PTSD stays prominent in Expertise and in the statement. If Cat feels strongly about leading with trauma, keep it in the top three and drop Anxiety to Expertise.
+5. **Top specialties.** Current order is Trauma and PTSD, Medication Management, Mood Disorders. Recommended order is Medication Management, Depression, Anxiety, which matches the website and puts the highest-volume searches first. Trauma and PTSD stays prominent in Expertise and in the statement. If Cathleen feels strongly about leading with trauma, keep it in the top three and drop Anxiety to Expertise.
 6. **Insurance list duplicates.** "Blue Cross," "Blue Shield," and "BlueCross and BlueShield" all appear as separate entries. That is Psychology Today's taxonomy rather than an error, and it helps search matching, so leave them.
 7. **Credentials block** (license AP60185002, Seattle University 2010, ANCC certificate, 16 years) is consistent with the site and needs no change.

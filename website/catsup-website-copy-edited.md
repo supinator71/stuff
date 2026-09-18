@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 9 adds the practice phone number to the Contact page, inquiry modal, and footer, with booking still routed to Headway. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 10 routes all scheduling and insurance matters to Headway, reserves the practice phone for practice-level contact, and uses "Cathleen" throughout. Editorial notes and a change log are at the end.
 
 ---
 
@@ -34,7 +34,7 @@ Evidence-Based Care, Close to Home
 Thoughtful, accessible outpatient telepsychiatry and mindful medication management with Cathleen Bozek, MSN, PMHNP-BC, serving adults across Washington State by secure video.
 
 **Hero buttons:**
-- Book with Cat on Headway
+- Book with Cathleen on Headway
 - View Psychology Today Profile
 
 **Trust indicators:**
@@ -78,7 +78,7 @@ Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American
 - Badge: Accepting New Patients in Washington
 - Headline: Begin Your Care with Cathleen Bozek, PMHNP-BC
 - Subhead: Thoughtful, accessible outpatient telepsychiatry and evidence-based medication management for adults across Washington State. Verify your insurance and book directly on Headway.
-- Buttons: Book with Cat on Headway · View Psychology Today Profile
+- Buttons: Book with Cathleen on Headway · View Psychology Today Profile
 
 ---
 
@@ -101,13 +101,13 @@ Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American
 - Verified by Psychology Today
 
 **Professional biography:**
-Cathleen Bozek (Cat) is a board-certified Psychiatric-Mental Health Nurse Practitioner with more than 15 years of clinical experience across outpatient mental health, community clinics, and specialty settings. Raised in Bremerton, Washington, she earned her Master of Science in Nursing, magna cum laude, from Seattle University and has devoted her career to culturally humble, trauma-informed psychiatric care for Pacific Northwest communities.
+Cathleen Bozek is a board-certified Psychiatric-Mental Health Nurse Practitioner with more than 15 years of clinical experience across outpatient mental health, community clinics, and specialty settings. Raised in Bremerton, Washington, she earned her Master of Science in Nursing, magna cum laude, from Seattle University and has devoted her career to culturally humble, trauma-informed psychiatric care for Pacific Northwest communities.
 
-Cat's virtual practice serves adults and older adults throughout Washington State. She specializes in the diagnostic evaluation and medication management of depression, generalized and social anxiety, OCD, bipolar spectrum conditions, PTSD, sleep disturbances, perinatal mood and anxiety concerns, and the stress of major life transitions.
+Cathleen's virtual practice serves adults and older adults throughout Washington State. She specializes in the diagnostic evaluation and medication management of depression, generalized and social anxiety, OCD, bipolar spectrum conditions, PTSD, sleep disturbances, perinatal mood and anxiety concerns, and the stress of major life transitions.
 
 **Clinical philosophy:**
-- **Lowest effective dose.** Medication is a tool for restoring balance and quality of life, not a lifetime commitment. Cat prescribes judiciously, reassesses response at every stage of treatment, and looks for safe opportunities to simplify regimens or taper when appropriate.
-- **Whole-person and trauma-informed.** Good psychiatric care treats the whole person. Cat brings sleep, nutrition, daily routines, and supportive psychotherapy into each visit so patients feel heard, respected, and equipped.
+- **Lowest effective dose.** Medication is a tool for restoring balance and quality of life, not a lifetime commitment. Cathleen prescribes judiciously, reassesses response at every stage of treatment, and looks for safe opportunities to simplify regimens or taper when appropriate.
+- **Whole-person and trauma-informed.** Good psychiatric care treats the whole person. Cathleen brings sleep, nutrition, daily routines, and supportive psychotherapy into each visit so patients feel heard, respected, and equipped.
 - **Affirming and inclusive.** A welcoming, stigma-free space for neurodivergent people and for LGBTQ+ and gender-expansive communities.
 
 **Practice details:**
@@ -166,16 +166,16 @@ Dr. Kang does not see outpatients through this practice. Outpatient telepsychiat
 
 **Scheduling callout:**
 Ready to schedule with Cathleen?
-Appointments and insurance verification are handled through Headway. View live openings and book your visit in minutes.
+Appointments, insurance verification, and billing are all handled through Headway. View live openings and book your visit in minutes.
 Buttons: Book on Headway · View Psychology Today Profile
 
 **Frequently Asked Questions:**
 
 **How do I schedule an appointment with Cathleen Bozek?**
-All scheduling and insurance intake run through Headway. Select "Schedule on Headway" to see Cathleen's real-time calendar, confirm your coverage, and book an initial evaluation in minutes. Appointments cannot be booked by phone or email.
+All scheduling, insurance verification, and billing run through Headway. Select "Schedule on Headway" to see Cathleen's real-time calendar, confirm your coverage, and book an initial evaluation in minutes. Appointments cannot be booked by phone or email, and questions about coverage or billing go to Headway's patient support rather than the practice.
 
 **Which insurance plans does Cathleen accept in Washington State?**
-Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, Providence Health Plan, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available.
+Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, Providence Health Plan, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available. Headway verifies eligibility and answers coverage and billing questions directly.
 
 **What should I expect at my initial psychiatric evaluation?**
 Your initial evaluation is a comprehensive, nonjudgmental 60-minute video visit. Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated. Follow-up visits are shorter and focus on how treatment is going. Appointment lengths are shown on Headway when you book.
@@ -233,18 +233,18 @@ Buttons: Book with Cathleen on Headway · View Psychology Today Profile
 
 **Card 1: Cathleen Bozek, PMHNP-BC (Outpatient Scheduling)**
 For psychiatric evaluations, ongoing medication management, and supportive psychotherapy for adults across Washington State.
-- Book on Headway: verify insurance and schedule an initial evaluation.
+- Book on Headway: Headway verifies your insurance, shows a copay estimate, and schedules your initial evaluation.
+- Questions about scheduling, insurance, or billing: Headway's patient support team handles all of these.
 - View Verified by Psychology Today profile.
 - Location: Bremerton / Kitsap County, WA (statewide telehealth).
 
-**Card 2: Practice & Scheduling Inquiries**
-Questions about telepsychiatry visits, accepted insurance, or physician consultation? Send our practice a message or call (206) 829-6204. Appointments with Cathleen are booked on Headway, not by phone.
+**Card 2: Contact the Practice**
+For physician consultation inquiries or other practice matters, send a message or call (206) 829-6204. Scheduling, insurance, and billing are handled entirely through Headway, not by the practice phone or email.
 
 Dropdown categories:
-1. Appointment question (Cathleen Bozek, PMHNP-BC) → links to Headway
-2. Insurance coverage or billing question → links to Headway
-3. Physician consultation inquiry (clinicians and organizations) → emails sup@catsupconsulting.com
-4. General practice message → emails sup@catsupconsulting.com
+1. Scheduling, insurance, or billing question → links to Headway patient support (no form; redirect on selection)
+2. Physician consultation inquiry (clinicians and organizations) → emails sup@catsupconsulting.com
+3. Other practice matter → emails sup@catsupconsulting.com
 
 Form fields: Name · Email address · Organization (optional) · Message
 
@@ -252,17 +252,17 @@ Form fields: Name · Email address · Organization (optional) · Message
 
 ## 7. Inquiry Modal
 
-**Header:** Have a question before booking?
-**Description:** Send our practice a message about telepsychiatry visits, accepted insurance, or physician consultation.
+**Header:** Contact the practice
+**Description:** For scheduling, insurance, and billing, please use Headway, which manages all of these for Cathleen. For physician consultation inquiries or other practice matters, send a message below.
 
 Categories:
-1. Appointment question (Cathleen Bozek, PMHNP-BC)
+1. Scheduling, insurance, or billing question → redirects to Headway
 2. Physician consultation inquiry (clinicians and organizations)
-3. General practice message
+3. Other practice matter
 
 Form fields: Name · Email · Phone (optional) · Message
 
-**Phone:** (206) 829-6204 for practice questions. Appointments are booked on Headway.
+**Phone:** (206) 829-6204 for practice matters only. Scheduling, insurance, and billing are handled by Headway.
 
 **Notice:** Please do not submit urgent or emergency medical information through this form. If you are in crisis, call or text 988 or go to the nearest emergency room.
 
@@ -275,7 +275,7 @@ CatSup Consulting PLLC is an outpatient practice and does not provide emergency 
 
 **Footer:**
 © 2026 CatSup Consulting PLLC. All rights reserved.
-(206) 829-6204 · sup@catsupconsulting.com · Appointments booked on Headway
+(206) 829-6204 · sup@catsupconsulting.com · Scheduling, insurance, and billing through Headway
 A Washington State Professional Limited Liability Company · HIPAA-compliant telehealth
 
 ---
@@ -283,19 +283,20 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 ## Editorial Notes
 
 ### Resolved in Revision 2
-- **Adults only.** All age-range language now says adults (and "adults and older adults" in Cat's bio). Adolescents removed.
-- **Specialties.** Depression, anxiety and OCD, bipolar, PTSD, sleep and stress, perinatal mental health, on every page. ADHD and psychotic disorders are not listed as specialties anywhere on the site, per practice decision. Cat does see ADHD patients, so the site does not say ADHD is refused; the controlled-substance FAQ sets expectations without naming it.
+- **Adults only.** All age-range language now says adults (and "adults and older adults" in Cathleen's bio). Adolescents removed.
+- **Specialties.** Depression, anxiety and OCD, bipolar, PTSD, sleep and stress, perinatal mental health, on every page. ADHD and psychotic disorders are not listed as specialties anywhere on the site, per practice decision. Cathleen does see ADHD patients, so the site does not say ADHD is refused; the controlled-substance FAQ sets expectations without naming it.
 - **BCBS.** Kept as a separate line, relabeled "Other Blue Cross Blue Shield plans (via BlueCard)" and moved directly under Premera and Regence so the grouping is obvious.
 - **Controlled substances.** Policy section added to Services with a matching FAQ. Wording deliberately does not cite the current DEA extension, so it stays accurate if the rules change.
 - **Dr. Kang's consultation.** Reframed as physician consultation for referring clinicians and organizations, with direct patient consultation "limited, case-by-case." Contact dropdown and modal categories updated to match, and an optional Organization field added to the contact form. Liability coverage is intentionally not mentioned on the site.
 - **Psychology Today.** Every reference now uses "Verified by Psychology Today," which is the badge's official wording.
 - **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
 
-- **Phone number.** The practice line (206) 829-6204 now appears on the Contact page, in the inquiry modal, and in the footer, each time paired with a statement that appointments are booked on Headway. The Psychology Today tracked number is not used anywhere on the site.
+- **Headway handles all administration.** Scheduling, insurance verification, and billing are stated as Headway's responsibility everywhere they come up. The contact form and modal no longer offer an "appointment question" or "insurance question" category that reaches the practice; selecting that option redirects to Headway. The practice line (206) 829-6204 is presented for practice matters only. The Psychology Today tracked number is not used anywhere on the site.
+- **Name.** "Cathleen" is used throughout the site copy; the nickname "Cat" no longer appears.
 
 ### Still open
 1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
-2. **ADHD and psychotic disorders.** Resolved. Neither is listed as a specialty. ADHD is no longer mentioned anywhere on the site. Cat still sees ADHD patients; the "not at a first visit" and "after a complete evaluation" language in the controlled-substance FAQ covers stimulant expectations without naming ADHD.
+2. **ADHD and psychotic disorders.** Resolved. Neither is listed as a specialty. ADHD is no longer mentioned anywhere on the site. Cathleen still sees ADHD patients; the "not at a first visit" and "after a complete evaluation" language in the controlled-substance FAQ covers stimulant expectations without naming ADHD.
 3. **Controlled-substance policy.** Resolved. The six-bullet policy block is gone. The site now carries two FAQ entries: controlled medications only after a complete evaluation and never at a first visit; benzodiazepines not for long-term use, with taper support. This matches the level of detail published by comparable practices, including ATC Psychiatry, which markets to Kitsap County. The operational rules that were removed (PMP review before every controlled prescription, single prescriber, no early refills or replacement of lost prescriptions, patient physically in Washington during visits, federal telemedicine rules may change) belong in the controlled-substance agreement and intake consent, not on the website. See the separate list below.
 4. **BlueCard.** Resolved. Cat's live Headway profile lists Blue Cross Blue Shield of Massachusetts and Horizon Blue Cross Blue Shield of New Jersey, which is how Headway surfaces out-of-state Blue coverage. Regence BlueShield of Washington and Providence Health Plan are confirmed on the profile; Providence has been added to the site.
 5. **Headway profile says "Ages served: Seniors, Adults, Adolescents."** The site now says adults only. Patients can book whatever Headway allows, so Cat should remove Adolescents from her Headway profile, or the site should change to match. This is the one live inconsistency left.
