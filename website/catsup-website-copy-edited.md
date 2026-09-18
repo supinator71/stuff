@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Items marked **[CONFIRM]** still need a factual decision before publishing. Editorial notes and a change log are at the end.
+Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 3 removes the appointment-length placeholder and resolves the BlueCard question. Editorial notes and a change log are at the end.
 
 ---
 
@@ -54,7 +54,7 @@ Thoughtful, accessible outpatient telepsychiatry and mindful medication manageme
 **Accepted insurance plans:**
 - Premera Blue Cross
 - Regence BlueShield
-- Other Blue Cross Blue Shield plans (out-of-state and employer plans, via BlueCard) **[CONFIRM with Headway that BlueCard claims are covered under the contract]**
+- Many other Blue Cross Blue Shield plans, including out-of-state and employer plans (eligibility confirmed at booking)
 - Aetna
 - Cigna / Evernorth
 - Ambetter (Coordinated Care) Washington
@@ -193,7 +193,7 @@ All scheduling and insurance intake run through Headway. Select "Schedule on Hea
 Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available.
 
 **What should I expect at my initial psychiatric evaluation?**
-Your initial evaluation is a comprehensive, nonjudgmental **[XX]**-minute video visit. **[CONFIRM length with Cat]** Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated.
+Your initial evaluation is a comprehensive, unhurried video visit, longer than a routine follow-up so there is time to do it properly. Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated. Follow-up visits are shorter and focus on how treatment is going. Exact appointment lengths are shown on Headway when you book.
 
 **How do prescriptions work with telehealth?**
 Prescriptions are sent electronically to your preferred local or mail-order pharmacy in Washington State after your visit.
@@ -301,7 +301,7 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 - **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
 
 ### Still open
-1. **Initial evaluation length.** Placeholder "[XX]-minute" in the FAQ. Ask Cat.
+1. **Initial evaluation length.** The FAQ no longer states a number and instead points patients to Headway, which shows appointment lengths at booking. If you want a number on the site, take it from the appointment types on Cat's Headway booking page and add it back.
 2. **Psychotic disorders.** Confirm Cat is comfortable listing it and with the "clinically stable adults" framing.
 3. **Controlled-substance policy.** Review each bullet as a real practice policy before it goes live. Two bullets are practice choices rather than legal requirements: "generally not at a first visit" and "new long-term benzodiazepines generally not started." Keep, soften, or remove as you see fit. The opioid line should be adjusted if buprenorphine is ever prescribed.
 4. **BlueCard.** Confirm with Headway that out-of-state BCBS claims are payable under Cat's contract before advertising it.
