@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 10 routes all scheduling and insurance matters to Headway, reserves the practice phone for practice-level contact, and uses "Cathleen" throughout. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 11 makes the practice contact channel explicit: contracting Dr. Kang for file and chart reviews, and consultation inquiries. Editorial notes and a change log are at the end.
 
 ---
 
@@ -130,7 +130,7 @@ Cathleen's virtual practice serves adults and older adults throughout Washington
 **Professional biography:**
 Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association (FAPA).
 
-With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC and to referring clinicians and organizations.
+With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC. Dr. Kang is available to clinicians, practices, health plans, and organizations for file and chart reviews, second opinions, utilization review, and psychopharmacology consultation.
 
 **Practice notice:**
 Dr. Kang does not see outpatients through this practice. Outpatient telepsychiatry and medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -221,7 +221,7 @@ We believe patients should understand what is being recommended, why, and what i
 4. **Whole-person care.** Psychiatric symptoms do not exist in isolation. Cathleen considers sleep, stress, physical health, daily routines, and relationships alongside medication management and supportive therapy.
 
 **Physician consultation for clinicians and organizations:**
-CatSup Consulting also offers psychiatric consultation from Supriya Kang, MD, FAPA, to referring clinicians, practices, and health care organizations. Services include record reviews, second opinions, and psychopharmacology consultation for medically complex cases. Direct consultation with individual patients is considered on a limited, case-by-case basis. To inquire, use the Physician Consultation option on our Contact page.
+CatSup Consulting also offers psychiatric consultation from Supriya Kang, MD, FAPA, to clinicians, practices, health plans, and health care organizations. Services include file and chart reviews, second opinions, utilization review, and psychopharmacology consultation for medically complex cases. Direct consultation with individual patients is considered on a limited, case-by-case basis. To inquire or contract for services, use the Contact page or call (206) 829-6204.
 
 **Connect with our practice:**
 Schedule a virtual psychiatric evaluation with Cathleen Bozek through Headway, or view her Verified by Psychology Today profile.
@@ -238,31 +238,33 @@ For psychiatric evaluations, ongoing medication management, and supportive psych
 - View Verified by Psychology Today profile.
 - Location: Bremerton / Kitsap County, WA (statewide telehealth).
 
-**Card 2: Contact the Practice**
-For physician consultation inquiries or other practice matters, send a message or call (206) 829-6204. Scheduling, insurance, and billing are handled entirely through Headway, not by the practice phone or email.
+**Card 2: Contact the Practice (Physician Consultation & Chart Review)**
+To engage Supriya Kang, MD, FAPA, for file or chart reviews, second opinions, utilization review, or psychopharmacology consultation, send a message or call (206) 829-6204. This channel is for clinicians, practices, health plans, and organizations. Patient scheduling, insurance, and billing are handled entirely through Headway, not by the practice phone or email.
 
 Dropdown categories:
-1. Scheduling, insurance, or billing question → links to Headway patient support (no form; redirect on selection)
-2. Physician consultation inquiry (clinicians and organizations) → emails sup@catsupconsulting.com
-3. Other practice matter → emails sup@catsupconsulting.com
+1. Patient scheduling, insurance, or billing question → links to Headway patient support (no form; redirect on selection)
+2. File or chart review request → emails sup@catsupconsulting.com
+3. Psychiatric consultation or second opinion inquiry → emails sup@catsupconsulting.com
+4. Other practice matter → emails sup@catsupconsulting.com
 
-Form fields: Name · Email address · Organization (optional) · Message
+Form fields: Name · Organization · Email address · Phone (optional) · Message
 
 ---
 
 ## 7. Inquiry Modal
 
 **Header:** Contact the practice
-**Description:** For scheduling, insurance, and billing, please use Headway, which manages all of these for Cathleen. For physician consultation inquiries or other practice matters, send a message below.
+**Description:** For patient scheduling, insurance, and billing, please use Headway, which manages all of these for Cathleen. To engage Dr. Kang for file or chart reviews, consultation, or second opinions, send a message below.
 
 Categories:
-1. Scheduling, insurance, or billing question → redirects to Headway
-2. Physician consultation inquiry (clinicians and organizations)
-3. Other practice matter
+1. Patient scheduling, insurance, or billing question → redirects to Headway
+2. File or chart review request
+3. Psychiatric consultation or second opinion inquiry
+4. Other practice matter
 
-Form fields: Name · Email · Phone (optional) · Message
+Form fields: Name · Organization · Email · Phone (optional) · Message
 
-**Phone:** (206) 829-6204 for practice matters only. Scheduling, insurance, and billing are handled by Headway.
+**Phone:** (206) 829-6204 for consultation and chart-review inquiries. Patient scheduling, insurance, and billing are handled by Headway.
 
 **Notice:** Please do not submit urgent or emergency medical information through this form. If you are in crisis, call or text 988 or go to the nearest emergency room.
 
@@ -275,7 +277,7 @@ CatSup Consulting PLLC is an outpatient practice and does not provide emergency 
 
 **Footer:**
 © 2026 CatSup Consulting PLLC. All rights reserved.
-(206) 829-6204 · sup@catsupconsulting.com · Scheduling, insurance, and billing through Headway
+Consultation & chart review: (206) 829-6204 · sup@catsupconsulting.com · Patient scheduling, insurance, and billing through Headway
 A Washington State Professional Limited Liability Company · HIPAA-compliant telehealth
 
 ---
@@ -291,7 +293,7 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 - **Psychology Today.** Every reference now uses "Verified by Psychology Today," which is the badge's official wording.
 - **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
 
-- **Headway handles all administration.** Scheduling, insurance verification, and billing are stated as Headway's responsibility everywhere they come up. The contact form and modal no longer offer an "appointment question" or "insurance question" category that reaches the practice; selecting that option redirects to Headway. The practice line (206) 829-6204 is presented for practice matters only. The Psychology Today tracked number is not used anywhere on the site.
+- **Headway handles all administration.** Scheduling, insurance verification, and billing are stated as Headway's responsibility everywhere they come up. The contact form and modal no longer offer an "appointment question" or "insurance question" category that reaches the practice; selecting that option redirects to Headway. The practice line (206) 829-6204 and the contact form are presented as the channel for engaging Dr. Kang: file and chart reviews, second opinions, utilization review, and psychopharmacology consultation, aimed at clinicians, practices, health plans, and organizations. The Psychology Today tracked number is not used anywhere on the site.
 - **Name.** "Cathleen" is used throughout the site copy; the nickname "Cat" no longer appears.
 
 ### Still open
