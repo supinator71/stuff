@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 11 makes the practice contact channel explicit: contracting Dr. Kang for file and chart reviews, and consultation inquiries. Editorial notes and a change log are at the end.
+No open [CONFIRM] flags remain; the site copy is ready to publish. Revision 12 removes utilization review and health plans from Dr. Kang's consultation offering and states that consultation is private pay. Editorial notes and a change log are at the end.
 
 ---
 
@@ -130,7 +130,7 @@ Cathleen's virtual practice serves adults and older adults throughout Washington
 **Professional biography:**
 Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American Board of Psychiatry and Neurology, and a Fellow of the American Psychiatric Association (FAPA).
 
-With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC. Dr. Kang is available to clinicians, practices, health plans, and organizations for file and chart reviews, second opinions, utilization review, and psychopharmacology consultation.
+With an extensive background in behavioral health medical leadership, utilization management, and clinical quality assurance, Dr. Kang maintains an active clinical practice and provides physician consultation to CatSup Consulting PLLC. Dr. Kang is available to clinicians, practices, and organizations for file and chart reviews, second opinions, and psychopharmacology consultation on a private-pay basis.
 
 **Practice notice:**
 Dr. Kang does not see outpatients through this practice. Outpatient telepsychiatry and medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -221,7 +221,7 @@ We believe patients should understand what is being recommended, why, and what i
 4. **Whole-person care.** Psychiatric symptoms do not exist in isolation. Cathleen considers sleep, stress, physical health, daily routines, and relationships alongside medication management and supportive therapy.
 
 **Physician consultation for clinicians and organizations:**
-CatSup Consulting also offers psychiatric consultation from Supriya Kang, MD, FAPA, to clinicians, practices, health plans, and health care organizations. Services include file and chart reviews, second opinions, utilization review, and psychopharmacology consultation for medically complex cases. Direct consultation with individual patients is considered on a limited, case-by-case basis. To inquire or contract for services, use the Contact page or call (206) 829-6204.
+CatSup Consulting also offers psychiatric consultation from Supriya Kang, MD, FAPA, to clinicians, practices, and health care organizations. Services include file and chart reviews, second opinions, and psychopharmacology consultation for medically complex cases. Direct consultation with individual patients is considered on a limited, case-by-case basis. Consultation services are private pay and are not billed to insurance. To inquire or contract for services, use the Contact page or call (206) 829-6204.
 
 **Connect with our practice:**
 Schedule a virtual psychiatric evaluation with Cathleen Bozek through Headway, or view her Verified by Psychology Today profile.
@@ -239,7 +239,7 @@ For psychiatric evaluations, ongoing medication management, and supportive psych
 - Location: Bremerton / Kitsap County, WA (statewide telehealth).
 
 **Card 2: Contact the Practice (Physician Consultation & Chart Review)**
-To engage Supriya Kang, MD, FAPA, for file or chart reviews, second opinions, utilization review, or psychopharmacology consultation, send a message or call (206) 829-6204. This channel is for clinicians, practices, health plans, and organizations. Patient scheduling, insurance, and billing are handled entirely through Headway, not by the practice phone or email.
+To engage Supriya Kang, MD, FAPA, for file or chart reviews, second opinions, or psychopharmacology consultation, send a message or call (206) 829-6204. This channel is for clinicians, practices, and organizations. Consultation services are private pay and are not billed to insurance. Patient scheduling, insurance, and billing are handled entirely through Headway, not by the practice phone or email.
 
 Dropdown categories:
 1. Patient scheduling, insurance, or billing question → links to Headway patient support (no form; redirect on selection)
@@ -293,7 +293,7 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 - **Psychology Today.** Every reference now uses "Verified by Psychology Today," which is the badge's official wording.
 - **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
 
-- **Headway handles all administration.** Scheduling, insurance verification, and billing are stated as Headway's responsibility everywhere they come up. The contact form and modal no longer offer an "appointment question" or "insurance question" category that reaches the practice; selecting that option redirects to Headway. The practice line (206) 829-6204 and the contact form are presented as the channel for engaging Dr. Kang: file and chart reviews, second opinions, utilization review, and psychopharmacology consultation, aimed at clinicians, practices, health plans, and organizations. The Psychology Today tracked number is not used anywhere on the site.
+- **Headway handles all administration.** Scheduling, insurance verification, and billing are stated as Headway's responsibility everywhere they come up. The contact form and modal no longer offer an "appointment question" or "insurance question" category that reaches the practice; selecting that option redirects to Headway. The practice line (206) 829-6204 and the contact form are presented as the channel for engaging Dr. Kang: file and chart reviews, second opinions, and psychopharmacology consultation, aimed at clinicians, practices, and organizations, on a private-pay basis. "Utilization review" and "health plans" were removed from the offering because Dr. Kang holds a full-time behavioral health medical director role at a health plan; advertising UR services to other plans would be the clearest possible conflict with that role. The Psychology Today tracked number is not used anywhere on the site.
 - **Name.** "Cathleen" is used throughout the site copy; the nickname "Cat" no longer appears.
 
 ### Still open
