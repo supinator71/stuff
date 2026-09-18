@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 5 removes ADHD and psychotic disorders from the site and finalizes the opioid line. Editorial notes and a change log are at the end.
+Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 6 removes all mention of opioids from the site copy. Editorial notes and a change log are at the end.
 
 ---
 
@@ -172,7 +172,6 @@ Controlled medications, including stimulants, benzodiazepines, and certain sleep
 - Generally does not prescribe controlled medications at a first visit. New patients continuing a controlled medication started elsewhere should expect a request for prior treatment records before it is continued.
 - Does not offer ADHD evaluation or stimulant prescribing as a service. Patients seeking ADHD assessment will be referred to a clinician who specializes in it.
 - Favors evidence-based first-line treatments. For anxiety and insomnia, that usually means antidepressants and therapy-based approaches rather than long-term benzodiazepines or sedative-hypnotics. New long-term benzodiazepine prescriptions are generally not started, and existing ones are reviewed for a safe, gradual taper when appropriate.
-- Does not prescribe opioids or medications for opioid use disorder, and does not co-prescribe benzodiazepines with opioids.
 - Asks that all controlled medications come from a single prescriber. Early refills and replacement of lost or stolen prescriptions are not provided.
 - Requires that you be physically located in Washington State during any visit in which a prescription is written.
 - Follows current federal telemedicine rules for controlled substances. Those rules can change; if an in-person evaluation becomes required for a medication, we will tell you in advance and help you plan.
@@ -199,7 +198,7 @@ Your initial evaluation is a comprehensive, nonjudgmental 60-minute video visit.
 Prescriptions are sent electronically to your preferred local or mail-order pharmacy in Washington State after your visit.
 
 **Do you prescribe controlled medications such as stimulants or benzodiazepines?**
-Some controlled medications are prescribed when clinically indicated and after a complete evaluation, though generally not at a first visit. The practice does not offer ADHD evaluation or stimulant prescribing, and does not prescribe opioids or medications for opioid use disorder. See our prescribing policy above for details.
+Some controlled medications are prescribed when clinically indicated and after a complete evaluation, though generally not at a first visit. The practice does not offer ADHD evaluation or stimulant prescribing. See our prescribing policy above for details.
 
 **What is Dr. Supriya Kang's role at CatSup Consulting?**
 Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice and provides physician consultation to referring clinicians and organizations. Dr. Kang does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -303,7 +302,7 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 ### Still open
 1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
 2. **ADHD and psychotic disorders.** Resolved. Removed from the site. The prescribing policy now states plainly that ADHD evaluation and stimulant prescribing are not offered, so those inquiries are screened out before booking.
-3. **Controlled-substance policy.** Opioid line resolved: no opioids and no medications for opioid use disorder, since MOUD is out of scope. Two bullets remain practice choices for Cat to keep, soften, or remove: "generally not at a first visit" and "new long-term benzodiazepines generally not started."
+3. **Controlled-substance policy.** Opioids are not mentioned anywhere in the site copy, per practice decision; they rarely come up in this practice and MOUD is out of scope. Two bullets remain practice choices for Cat to keep, soften, or remove: "generally not at a first visit" and "new long-term benzodiazepines generally not started."
 4. **BlueCard.** Resolved. Cat's live Headway profile lists Blue Cross Blue Shield of Massachusetts and Horizon Blue Cross Blue Shield of New Jersey, which is how Headway surfaces out-of-state Blue coverage. Regence BlueShield of Washington and Providence Health Plan are confirmed on the profile; Providence has been added to the site.
 5. **Headway profile says "Ages served: Seniors, Adults, Adolescents."** The site now says adults only. Patients can book whatever Headway allows, so Cat should remove Adolescents from her Headway profile, or the site should change to match. This is the one live inconsistency left.
 6. **Headway lists specialties the site does not.** Substance use / addiction, eating disorders, grief or loss, and family issues appear on Headway. OCD and perinatal / women's mental health were added to the site because they are common searches and fit an outpatient medication practice. Substance use and eating disorders were left off because they usually imply program-level support; add them if Cat wants them advertised. Headway does not list ADHD, which now matches the site.
