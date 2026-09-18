@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 7 corrects the ADHD stance: not advertised as a specialty, but not refused. Editorial notes and a change log are at the end.
+Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 8 replaces the prescribing-policy block with two FAQ entries, matching how comparable virtual practices handle it. Editorial notes and a change log are at the end.
 
 ---
 
@@ -164,20 +164,6 @@ Dr. Kang does not see outpatients through this practice. Outpatient telepsychiat
 - **Sleep & Stress.** Insomnia, circadian disruption, and chronic life stress.
 - **Perinatal & Women's Mental Health.** Mood and anxiety concerns during pregnancy, postpartum, and across life stages.
 
-**Prescribing policy for controlled medications:**
-
-Controlled medications, including stimulants, benzodiazepines, and certain sleep medications, are prescribed only when clinically indicated, after a complete evaluation, and in compliance with federal and Washington State law. To keep prescribing safe and consistent, our practice:
-
-- Reviews the Washington Prescription Monitoring Program (PMP) before prescribing any controlled medication and at regular intervals during treatment.
-- Generally does not prescribe controlled medications at a first visit. New patients continuing a controlled medication started elsewhere should expect a request for prior treatment records before it is continued.
-- Diagnoses ADHD only after a structured assessment, which may include prior records, rating scales, and collateral history. Stimulants are not prescribed on request, and are not started at a first visit.
-- Favors evidence-based first-line treatments. For anxiety and insomnia, that usually means antidepressants and therapy-based approaches rather than long-term benzodiazepines or sedative-hypnotics. New long-term benzodiazepine prescriptions are generally not started, and existing ones are reviewed for a safe, gradual taper when appropriate.
-- Asks that all controlled medications come from a single prescriber. Early refills and replacement of lost or stolen prescriptions are not provided.
-- Requires that you be physically located in Washington State during any visit in which a prescription is written.
-- Follows current federal telemedicine rules for controlled substances. Those rules can change; if an in-person evaluation becomes required for a medication, we will tell you in advance and help you plan.
-
-The decision to prescribe any medication rests with the treating clinician. **[CONFIRM: review as a practice policy with Cat before publishing]**
-
 **Scheduling callout:**
 Ready to schedule with Cathleen?
 Appointments and insurance verification are handled through Headway. View live openings and book your visit in minutes.
@@ -198,7 +184,10 @@ Your initial evaluation is a comprehensive, nonjudgmental 60-minute video visit.
 Prescriptions are sent electronically to your preferred local or mail-order pharmacy in Washington State after your visit.
 
 **Do you prescribe controlled medications such as stimulants or benzodiazepines?**
-Some controlled medications are prescribed when clinically indicated and after a complete evaluation, though generally not at a first visit. ADHD is diagnosed only after a structured assessment, and stimulants are not prescribed on request. See our prescribing policy above for details.
+Sometimes, when clinically indicated and after a complete evaluation. Controlled medications are not prescribed at a first visit. Patients continuing a controlled medication started elsewhere should expect a request for prior records before it is continued.
+
+**Do you prescribe benzodiazepines for anxiety or sleep?**
+Not for long-term use. First-line treatment for anxiety and insomnia is usually an antidepressant together with therapy-based approaches, which work well and are safe over time. Benzodiazepines are used rarely and with clear limits. If you are already taking one, Cathleen can work with you on a safe, gradual taper when appropriate.
 
 **What is Dr. Supriya Kang's role at CatSup Consulting?**
 Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice and provides physician consultation to referring clinicians and organizations. Dr. Kang does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -292,7 +281,7 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 
 ### Resolved in Revision 2
 - **Adults only.** All age-range language now says adults (and "adults and older adults" in Cat's bio). Adolescents removed.
-- **Specialties.** Depression, anxiety and OCD, bipolar, PTSD, sleep and stress, perinatal mental health, on every page. ADHD and psychotic disorders are not listed as specialties anywhere on the site, per practice decision. Cat does see ADHD patients, so the site does not say ADHD is refused; the prescribing policy sets expectations instead.
+- **Specialties.** Depression, anxiety and OCD, bipolar, PTSD, sleep and stress, perinatal mental health, on every page. ADHD and psychotic disorders are not listed as specialties anywhere on the site, per practice decision. Cat does see ADHD patients, so the site does not say ADHD is refused; the controlled-substance FAQ sets expectations without naming it.
 - **BCBS.** Kept as a separate line, relabeled "Other Blue Cross Blue Shield plans (via BlueCard)" and moved directly under Premera and Regence so the grouping is obvious.
 - **Controlled substances.** Policy section added to Services with a matching FAQ. Wording deliberately does not cite the current DEA extension, so it stays accurate if the rules change.
 - **Dr. Kang's consultation.** Reframed as physician consultation for referring clinicians and organizations, with direct patient consultation "limited, case-by-case." Contact dropdown and modal categories updated to match, and an optional Organization field added to the contact form. Liability coverage is intentionally not mentioned on the site.
@@ -301,13 +290,22 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 
 ### Still open
 1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
-2. **ADHD and psychotic disorders.** Resolved. Neither is listed as a specialty. ADHD is handled through the prescribing policy: structured assessment required, no stimulants on request or at a first visit. That keeps ADHD out of the marketing without turning away existing or incidental ADHD patients.
-3. **Controlled-substance policy.** Opioids are not mentioned anywhere in the site copy, per practice decision; they rarely come up in this practice and MOUD is out of scope. Two bullets remain practice choices for Cat to keep, soften, or remove: "generally not at a first visit" and "new long-term benzodiazepines generally not started."
+2. **ADHD and psychotic disorders.** Resolved. Neither is listed as a specialty. ADHD is no longer mentioned anywhere on the site. Cat still sees ADHD patients; the "not at a first visit" and "after a complete evaluation" language in the controlled-substance FAQ covers stimulant expectations without naming ADHD.
+3. **Controlled-substance policy.** Resolved. The six-bullet policy block is gone. The site now carries two FAQ entries: controlled medications only after a complete evaluation and never at a first visit; benzodiazepines not for long-term use, with taper support. This matches the level of detail published by comparable practices, including ATC Psychiatry, which markets to Kitsap County. The operational rules that were removed (PMP review before every controlled prescription, single prescriber, no early refills or replacement of lost prescriptions, patient physically in Washington during visits, federal telemedicine rules may change) belong in the controlled-substance agreement and intake consent, not on the website. See the separate list below.
 4. **BlueCard.** Resolved. Cat's live Headway profile lists Blue Cross Blue Shield of Massachusetts and Horizon Blue Cross Blue Shield of New Jersey, which is how Headway surfaces out-of-state Blue coverage. Regence BlueShield of Washington and Providence Health Plan are confirmed on the profile; Providence has been added to the site.
 5. **Headway profile says "Ages served: Seniors, Adults, Adolescents."** The site now says adults only. Patients can book whatever Headway allows, so Cat should remove Adolescents from her Headway profile, or the site should change to match. This is the one live inconsistency left.
 6. **Headway lists specialties the site does not.** Substance use / addiction, eating disorders, grief or loss, and family issues appear on Headway. OCD and perinatal / women's mental health were added to the site because they are common searches and fit an outpatient medication practice. Substance use and eating disorders were left off because they usually imply program-level support; add them if Cat wants them advertised. Headway does not list ADHD, which now matches the site.
 7. **Directory cleanup.** Third-party directories (WebMD, Vitals, Doctor.com, US News) still show a Seattle address at 1216 Pine St and a Burien listing for Cat. Update to Bremerton or remove so they match the site.
 
-### Regulatory basis for the controlled-substance policy (as of September 2026)
+### Moved off the website: items for the controlled-substance agreement and intake consent
+These were in the draft policy block and are worth keeping as practice policy. None of the comparable practices publish them on their sites.
+- Washington PMP is reviewed before any controlled medication is prescribed and at intervals during treatment.
+- All controlled medications come from a single prescriber.
+- No early refills; lost or stolen prescriptions are not replaced.
+- Patient must be physically located in Washington State during any visit in which a prescription is written.
+- Federal telemedicine rules for controlled substances may change; if an in-person evaluation becomes required, the practice will notify the patient in advance.
+- The decision to prescribe any medication rests with the treating clinician.
+
+### Regulatory basis for the controlled-substance FAQ (as of September 2026)
 - **Federal.** The DEA and HHS issued a fourth temporary extension of the COVID-era telemedicine flexibilities, effective January 1 through December 31, 2026. It allows DEA-registered practitioners to prescribe Schedule II-V medications by audio-video telemedicine without a prior in-person evaluation. The permanent special-registration rule is still unfinalized. Re-check this in Q4 2026 and update the policy if an in-person requirement takes effect.
-- **Washington.** The Health Care Authority requires a PMP check before prescribing controlled substances to Apple Health patients (WAC 182-530-1080). The Department of Health requires prescribers who write Schedule II-V prescriptions to be registered with the PMP, with mandatory queries at defined points for opioids. Checking the PMP before every controlled prescription, as the policy states, meets both and is standard of care.
+- **Washington.** The Health Care Authority requires a PMP check before prescribing controlled substances to Apple Health patients (WAC 182-530-1080). The Department of Health requires prescribers who write Schedule II-V prescriptions to be registered with the PMP, with mandatory queries at defined points for opioids. Checking the PMP before every controlled prescription meets both and is standard of care; it now lives in the intake paperwork rather than on the site.
