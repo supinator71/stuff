@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 3 removes the appointment-length placeholder and resolves the BlueCard question. Editorial notes and a change log are at the end.
+Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 4 aligns the site with Cat's live Headway profile (60-minute evaluations, Providence added, Regence confirmed). Editorial notes and a change log are at the end.
 
 ---
 
@@ -47,8 +47,8 @@ Thoughtful, accessible outpatient telepsychiatry and mindful medication manageme
 - Name: Cathleen Bozek, MSN, PMHNP-BC
 - Title: Psychiatric-Mental Health Nurse Practitioner
 - Bio: Personalized psychiatric evaluations, lowest-effective-dose medication management, and supportive psychotherapy for adults by secure telehealth across Washington.
-- Specialties: Depression & Mood · Anxiety & Panic · Bipolar Spectrum · PTSD & Trauma · Psychotic Disorders · Sleep & Stress · ADHD
-- Insurance: In-network with Premera, Regence, Aetna, Cigna, Ambetter, and other Blue Cross Blue Shield plans. HSA/FSA cards accepted.
+- Specialties: Depression & Mood · Anxiety, Panic & OCD · Bipolar Spectrum · PTSD & Trauma · Psychotic Disorders · Sleep & Stress · Perinatal Mental Health · ADHD
+- Insurance: In-network with Premera, Regence, Aetna, Cigna, Providence, Ambetter, and other Blue Cross Blue Shield plans. HSA/FSA cards accepted.
 - Button: Book an Initial Evaluation on Headway
 
 **Accepted insurance plans:**
@@ -57,6 +57,7 @@ Thoughtful, accessible outpatient telepsychiatry and mindful medication manageme
 - Many other Blue Cross Blue Shield plans, including out-of-state and employer plans (eligibility confirmed at booking)
 - Aetna
 - Cigna / Evernorth
+- Providence Health Plan
 - Ambetter (Coordinated Care) Washington
 - HSA / FSA cards accepted
 - Self-pay and out-of-network options available
@@ -153,15 +154,16 @@ Dr. Kang does not see outpatients through this practice. Outpatient telepsychiat
 
 1. **Comprehensive Psychiatric Evaluation.** A thorough, nonjudgmental assessment of your psychiatric history, current symptoms, and relevant physical health factors, leading to a treatment plan built around your goals.
 2. **Mindful Medication Management.** Careful psychopharmacology that favors the lowest effective dose, minimizes side effects, and regularly revisits whether each medication is still needed.
-3. **Integrated Supportive Psychotherapy.** Collaborative therapeutic support woven into medication visits, helping you build practical coping skills and resilience.
+3. **Integrated Supportive Psychotherapy.** Collaborative therapeutic support woven into medication visits, drawing on cognitive behavioral, motivational interviewing, and strengths-based approaches to build practical coping skills and resilience.
 
 **Conditions treated:**
 - **Depression & Mood Disorders.** Restoring energy, motivation, and emotional balance with individualized treatment.
-- **Anxiety & Panic.** Treatment for generalized anxiety, social anxiety, and panic disorder.
+- **Anxiety, Panic & OCD.** Treatment for generalized anxiety, social anxiety, panic disorder, and obsessive-compulsive disorder.
 - **Bipolar Spectrum Disorders.** Careful mood stabilization with ongoing monitoring and adjustment.
 - **PTSD & Complex Trauma.** Trauma-informed psychiatric care and symptom stabilization.
 - **Psychotic Disorders.** Medication management for clinically stable adults with schizophrenia spectrum and related conditions, with coordination to higher levels of care when needed. **[CONFIRM with Cat]**
 - **Sleep & Stress.** Insomnia, circadian disruption, and chronic life stress.
+- **Perinatal & Women's Mental Health.** Mood and anxiety concerns during pregnancy, postpartum, and across life stages.
 - **ADHD.** Structured diagnostic assessment and support for executive functioning.
 
 **Prescribing policy for controlled medications:**
@@ -190,10 +192,10 @@ Buttons: Book on Headway · View Psychology Today Profile
 All scheduling and insurance intake run through Headway. Select "Schedule on Headway" to see Cathleen's real-time calendar, confirm your coverage, and book an initial evaluation in minutes.
 
 **Which insurance plans does Cathleen accept in Washington State?**
-Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available.
+Through Headway, Cathleen is in-network with Premera Blue Cross, Regence BlueShield, other Blue Cross Blue Shield plans through BlueCard, Aetna, Cigna / Evernorth, Providence Health Plan, and Ambetter Washington. HSA and FSA cards are accepted, and self-pay is available.
 
 **What should I expect at my initial psychiatric evaluation?**
-Your initial evaluation is a comprehensive, unhurried video visit, longer than a routine follow-up so there is time to do it properly. Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated. Follow-up visits are shorter and focus on how treatment is going. Exact appointment lengths are shown on Headway when you book.
+Your initial evaluation is a comprehensive, nonjudgmental 60-minute video visit. Cathleen will review your history, current concerns, relevant physical health factors, and personal goals. Together you will build a treatment plan, which may include medication if clinically indicated. Follow-up visits are shorter and focus on how treatment is going. Appointment lengths are shown on Headway when you book.
 
 **How do prescriptions work with telehealth?**
 Prescriptions are sent electronically to your preferred local or mail-order pharmacy in Washington State after your visit.
@@ -301,10 +303,13 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 - **Tagline** trimmed to "Telepsychiatry & Mindful Medication Management."
 
 ### Still open
-1. **Initial evaluation length.** The FAQ no longer states a number and instead points patients to Headway, which shows appointment lengths at booking. If you want a number on the site, take it from the appointment types on Cat's Headway booking page and add it back.
+1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
 2. **Psychotic disorders.** Confirm Cat is comfortable listing it and with the "clinically stable adults" framing.
 3. **Controlled-substance policy.** Review each bullet as a real practice policy before it goes live. Two bullets are practice choices rather than legal requirements: "generally not at a first visit" and "new long-term benzodiazepines generally not started." Keep, soften, or remove as you see fit. The opioid line should be adjusted if buprenorphine is ever prescribed.
-4. **BlueCard.** Confirm with Headway that out-of-state BCBS claims are payable under Cat's contract before advertising it.
+4. **BlueCard.** Resolved. Cat's live Headway profile lists Blue Cross Blue Shield of Massachusetts and Horizon Blue Cross Blue Shield of New Jersey, which is how Headway surfaces out-of-state Blue coverage. Regence BlueShield of Washington and Providence Health Plan are confirmed on the profile; Providence has been added to the site.
+5. **Headway profile says "Ages served: Seniors, Adults, Adolescents."** The site now says adults only. Patients can book whatever Headway allows, so Cat should remove Adolescents from her Headway profile, or the site should change to match. This is the one live inconsistency left.
+6. **Headway lists specialties the site does not.** Substance use / addiction, eating disorders, grief or loss, and family issues appear on Headway. OCD and perinatal / women's mental health were added to the site because they are common searches and fit an outpatient medication practice. Substance use and eating disorders were left off because they usually imply program-level support; add them if Cat wants them advertised. Headway does not list ADHD at all, so the site's ADHD line at the end of the list is a modest claim.
+7. **Directory cleanup.** Third-party directories (WebMD, Vitals, Doctor.com, US News) still show a Seattle address at 1216 Pine St and a Burien listing for Cat. Update to Bremerton or remove so they match the site.
 
 ### Regulatory basis for the controlled-substance policy (as of September 2026)
 - **Federal.** The DEA and HHS issued a fourth temporary extension of the COVID-era telemedicine flexibilities, effective January 1 through December 31, 2026. It allows DEA-registered practitioners to prescribe Schedule II-V medications by audio-video telemedicine without a prior in-person evaluation. The permanent special-registration rule is still unfinalized. Re-check this in Q4 2026 and update the policy if an in-person requirement takes effect.
