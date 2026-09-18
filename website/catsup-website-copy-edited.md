@@ -1,6 +1,6 @@
 # CatSup Consulting PLLC — Website Copy (Edited, Revision 2)
 
-Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 4 aligns the site with Cat's live Headway profile (60-minute evaluations, Providence added, Regence confirmed). Editorial notes and a change log are at the end.
+Items marked **[CONFIRM]** still need a factual decision before publishing. Revision 5 removes ADHD and psychotic disorders from the site and finalizes the opioid line. Editorial notes and a change log are at the end.
 
 ---
 
@@ -47,7 +47,7 @@ Thoughtful, accessible outpatient telepsychiatry and mindful medication manageme
 - Name: Cathleen Bozek, MSN, PMHNP-BC
 - Title: Psychiatric-Mental Health Nurse Practitioner
 - Bio: Personalized psychiatric evaluations, lowest-effective-dose medication management, and supportive psychotherapy for adults by secure telehealth across Washington.
-- Specialties: Depression & Mood · Anxiety, Panic & OCD · Bipolar Spectrum · PTSD & Trauma · Psychotic Disorders · Sleep & Stress · Perinatal Mental Health · ADHD
+- Specialties: Depression & Mood · Anxiety, Panic & OCD · Bipolar Spectrum · PTSD & Trauma · Sleep & Stress · Perinatal Mental Health
 - Insurance: In-network with Premera, Regence, Aetna, Cigna, Providence, Ambetter, and other Blue Cross Blue Shield plans. HSA/FSA cards accepted.
 - Button: Book an Initial Evaluation on Headway
 
@@ -103,7 +103,7 @@ Supriya Kang, MD, is a board-certified psychiatrist, a Diplomate of the American
 **Professional biography:**
 Cathleen Bozek (Cat) is a board-certified Psychiatric-Mental Health Nurse Practitioner with more than 15 years of clinical experience across outpatient mental health, community clinics, and specialty settings. Raised in Bremerton, Washington, she earned her Master of Science in Nursing, magna cum laude, from Seattle University and has devoted her career to culturally humble, trauma-informed psychiatric care for Pacific Northwest communities.
 
-Cat's virtual practice serves adults and older adults throughout Washington State. She specializes in the diagnostic evaluation and medication management of depression, generalized and social anxiety, bipolar spectrum conditions, PTSD, psychotic disorders in clinically stable adults, sleep disturbances, the stress of major life transitions, and ADHD. **[CONFIRM with Cat: psychotic disorders wording and whether she wants it listed]**
+Cat's virtual practice serves adults and older adults throughout Washington State. She specializes in the diagnostic evaluation and medication management of depression, generalized and social anxiety, OCD, bipolar spectrum conditions, PTSD, sleep disturbances, perinatal mood and anxiety concerns, and the stress of major life transitions.
 
 **Clinical philosophy:**
 - **Lowest effective dose.** Medication is a tool for restoring balance and quality of life, not a lifetime commitment. Cat prescribes judiciously, reassesses response at every stage of treatment, and looks for safe opportunities to simplify regimens or taper when appropriate.
@@ -161,10 +161,8 @@ Dr. Kang does not see outpatients through this practice. Outpatient telepsychiat
 - **Anxiety, Panic & OCD.** Treatment for generalized anxiety, social anxiety, panic disorder, and obsessive-compulsive disorder.
 - **Bipolar Spectrum Disorders.** Careful mood stabilization with ongoing monitoring and adjustment.
 - **PTSD & Complex Trauma.** Trauma-informed psychiatric care and symptom stabilization.
-- **Psychotic Disorders.** Medication management for clinically stable adults with schizophrenia spectrum and related conditions, with coordination to higher levels of care when needed. **[CONFIRM with Cat]**
 - **Sleep & Stress.** Insomnia, circadian disruption, and chronic life stress.
 - **Perinatal & Women's Mental Health.** Mood and anxiety concerns during pregnancy, postpartum, and across life stages.
-- **ADHD.** Structured diagnostic assessment and support for executive functioning.
 
 **Prescribing policy for controlled medications:**
 
@@ -172,9 +170,9 @@ Controlled medications, including stimulants, benzodiazepines, and certain sleep
 
 - Reviews the Washington Prescription Monitoring Program (PMP) before prescribing any controlled medication and at regular intervals during treatment.
 - Generally does not prescribe controlled medications at a first visit. New patients continuing a controlled medication started elsewhere should expect a request for prior treatment records before it is continued.
-- Diagnoses ADHD only after a structured assessment, which may include prior records, rating scales, and collateral history. Stimulants are not prescribed on request.
+- Does not offer ADHD evaluation or stimulant prescribing as a service. Patients seeking ADHD assessment will be referred to a clinician who specializes in it.
 - Favors evidence-based first-line treatments. For anxiety and insomnia, that usually means antidepressants and therapy-based approaches rather than long-term benzodiazepines or sedative-hypnotics. New long-term benzodiazepine prescriptions are generally not started, and existing ones are reviewed for a safe, gradual taper when appropriate.
-- Does not prescribe opioids, and does not co-prescribe benzodiazepines with opioids. **[CONFIRM: adjust if the practice ever prescribes buprenorphine]**
+- Does not prescribe opioids or medications for opioid use disorder, and does not co-prescribe benzodiazepines with opioids.
 - Asks that all controlled medications come from a single prescriber. Early refills and replacement of lost or stolen prescriptions are not provided.
 - Requires that you be physically located in Washington State during any visit in which a prescription is written.
 - Follows current federal telemedicine rules for controlled substances. Those rules can change; if an in-person evaluation becomes required for a medication, we will tell you in advance and help you plan.
@@ -201,7 +199,7 @@ Your initial evaluation is a comprehensive, nonjudgmental 60-minute video visit.
 Prescriptions are sent electronically to your preferred local or mail-order pharmacy in Washington State after your visit.
 
 **Do you prescribe controlled medications such as stimulants or benzodiazepines?**
-Yes, when clinically indicated and after a complete evaluation. Controlled medications are generally not prescribed at a first visit, and ADHD is diagnosed only after a structured assessment. See our prescribing policy above for details.
+Some controlled medications are prescribed when clinically indicated and after a complete evaluation, though generally not at a first visit. The practice does not offer ADHD evaluation or stimulant prescribing, and does not prescribe opioids or medications for opioid use disorder. See our prescribing policy above for details.
 
 **What is Dr. Supriya Kang's role at CatSup Consulting?**
 Dr. Kang is a board-certified psychiatrist who serves as consulting psychiatrist to the practice and provides physician consultation to referring clinicians and organizations. Dr. Kang does not see outpatients through this practice; outpatient telepsychiatry and ongoing medication management are provided by Cathleen Bozek, PMHNP-BC.
@@ -295,7 +293,7 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 
 ### Resolved in Revision 2
 - **Adults only.** All age-range language now says adults (and "adults and older adults" in Cat's bio). Adolescents removed.
-- **Specialty order.** Depression, anxiety, bipolar, PTSD, psychotic disorders, sleep and stress, then ADHD, on every page. Psychotic disorders wording is flagged for Cat's sign-off.
+- **Specialties.** Depression, anxiety and OCD, bipolar, PTSD, sleep and stress, perinatal mental health, on every page. ADHD and psychotic disorders are not listed anywhere on the site, per practice decision.
 - **BCBS.** Kept as a separate line, relabeled "Other Blue Cross Blue Shield plans (via BlueCard)" and moved directly under Premera and Regence so the grouping is obvious.
 - **Controlled substances.** Policy section added to Services with a matching FAQ. Wording deliberately does not cite the current DEA extension, so it stays accurate if the rules change.
 - **Dr. Kang's consultation.** Reframed as physician consultation for referring clinicians and organizations, with direct patient consultation "limited, case-by-case." Contact dropdown and modal categories updated to match, and an optional Organization field added to the contact form. Liability coverage is intentionally not mentioned on the site.
@@ -304,11 +302,11 @@ A Washington State Professional Limited Liability Company · HIPAA-compliant tel
 
 ### Still open
 1. **Initial evaluation length.** Resolved. Headway books initial evaluations at 60 minutes; the FAQ says so.
-2. **Psychotic disorders.** Confirm Cat is comfortable listing it and with the "clinically stable adults" framing.
-3. **Controlled-substance policy.** Review each bullet as a real practice policy before it goes live. Two bullets are practice choices rather than legal requirements: "generally not at a first visit" and "new long-term benzodiazepines generally not started." Keep, soften, or remove as you see fit. The opioid line should be adjusted if buprenorphine is ever prescribed.
+2. **ADHD and psychotic disorders.** Resolved. Removed from the site. The prescribing policy now states plainly that ADHD evaluation and stimulant prescribing are not offered, so those inquiries are screened out before booking.
+3. **Controlled-substance policy.** Opioid line resolved: no opioids and no medications for opioid use disorder, since MOUD is out of scope. Two bullets remain practice choices for Cat to keep, soften, or remove: "generally not at a first visit" and "new long-term benzodiazepines generally not started."
 4. **BlueCard.** Resolved. Cat's live Headway profile lists Blue Cross Blue Shield of Massachusetts and Horizon Blue Cross Blue Shield of New Jersey, which is how Headway surfaces out-of-state Blue coverage. Regence BlueShield of Washington and Providence Health Plan are confirmed on the profile; Providence has been added to the site.
 5. **Headway profile says "Ages served: Seniors, Adults, Adolescents."** The site now says adults only. Patients can book whatever Headway allows, so Cat should remove Adolescents from her Headway profile, or the site should change to match. This is the one live inconsistency left.
-6. **Headway lists specialties the site does not.** Substance use / addiction, eating disorders, grief or loss, and family issues appear on Headway. OCD and perinatal / women's mental health were added to the site because they are common searches and fit an outpatient medication practice. Substance use and eating disorders were left off because they usually imply program-level support; add them if Cat wants them advertised. Headway does not list ADHD at all, so the site's ADHD line at the end of the list is a modest claim.
+6. **Headway lists specialties the site does not.** Substance use / addiction, eating disorders, grief or loss, and family issues appear on Headway. OCD and perinatal / women's mental health were added to the site because they are common searches and fit an outpatient medication practice. Substance use and eating disorders were left off because they usually imply program-level support; add them if Cat wants them advertised. Headway does not list ADHD, which now matches the site.
 7. **Directory cleanup.** Third-party directories (WebMD, Vitals, Doctor.com, US News) still show a Seattle address at 1216 Pine St and a Burien listing for Cat. Update to Bremerton or remove so they match the site.
 
 ### Regulatory basis for the controlled-substance policy (as of September 2026)
